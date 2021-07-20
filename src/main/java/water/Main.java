@@ -31,7 +31,8 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-    static String HELP = "## Usage\n\n " +
+    static String HELP = "[![Java CI with Maven](https://github.com/wonderwater/leetcodecn-downloader/actions/workflows/maven.yml/badge.svg)](https://github.com/wonderwater/leetcodecn-downloader/actions/workflows/maven.yml)\n" +
+            "## Usage\n\n " +
             "```bash\n" +
             "export cookie=\"...\" ## cookie from logon leetcode-cn\n" +
             "java -jar leetcodecn_downloader-1.0-SNAPSHOT-jar-with-dependencies.jar\n" +
