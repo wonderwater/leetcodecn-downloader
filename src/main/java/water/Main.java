@@ -56,10 +56,10 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-//        init();
-//        downloadSubmssions();
-//        downloadSubmssionDetail();
-//        downloadQuestion();
+        init();
+        downloadSubmssions();
+        downloadSubmssionDetail();
+        downloadQuestion();
         genMkSummary();
     }
 
