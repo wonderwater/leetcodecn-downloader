@@ -44,15 +44,15 @@ public class Main {
     }
 
     public static void init() {
-        SqlSession sqlSession = SqliteHelper.getInstance().openSession();
+        try(SqlSession sqlSession = SqliteHelper.getInstance().openSession()) {
 
-        InitMapper mapper = sqlSession.getMapper(InitMapper.class);
-        mapper.createQuestion();
-        mapper.createSubmission();
-        mapper.createSubmissionDetail();
+            InitMapper mapper = sqlSession.getMapper(InitMapper.class);
+            mapper.createQuestion();
+            mapper.createSubmission();
+            mapper.createSubmissionDetail();
 
-        sqlSession.commit();
-        sqlSession.close();
+            sqlSession.commit();
+        }
     }
 
     public static void main(String[] args) throws Exception {
