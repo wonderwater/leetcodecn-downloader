@@ -34,7 +34,7 @@ public class Main {
     static String HELP = "## Usage\n\n " +
             "```bash\n" +
             "export cookie=\"...\" ## cookie from logon leetcode-cn\n" +
-            "java -jar leetcodecn_downloader-1.0-SNAPSHOT-jar-with-dependencies.jar\n" +
+            "java -jar leetcodecn-downloader-1.0-SNAPSHOT-jar-with-dependencies.jar\n" +
             "```\n" +
             "Generate db file(sqlite)，and README.md file.\n" +
             "\n\n\n";
@@ -56,10 +56,10 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        init();
-        downloadSubmssions();
-        downloadSubmssionDetail();
-        downloadQuestion();
+//        init();
+//        downloadSubmssions();
+//        downloadSubmssionDetail();
+//        downloadQuestion();
         genMkSummary();
     }
 
@@ -91,12 +91,16 @@ public class Main {
         for (QuestionDto q : questionDtos) {
             List<SubmissionDetailDto> list = map.getOrDefault(q.getTitleSlug(), Collections.emptyList());
             Map<String, SubmissionDetailDto> dtoMap = list.stream().collect(Collectors.toMap(SubmissionDetailDto::getLang, Function.identity(), (x, y) -> x));
-            dtoMap.values().forEach(x -> builder.append(String.format("### %s %s%n%n```%s%n%s%n```%n%n", q.getTitleSlug().replaceAll("-", " "), x.getLang(),x.getLang(), x.getCode())));
-            Set<String> langs = dtoMap.keySet().stream().map(x -> String.format("[%s](#%s)", x, q.getTitleSlug() + "-" + x)).collect(Collectors.toSet());
-            prints.add(Arrays.asList(q.getQuestionFrontendId(), String.format("[%s](%s/problems/%s)", q.getTitle(), FeignHelper.URL, q.getTitleSlug()), String.join(",", langs), q.getTopicTags(), q.getDifficulty()));
+            dtoMap.values().forEach(x -> builder.append(String.format("### %s %s%n%n> submit time: %s%n%n```%s%n%s%n```%n%n",
+                    q.getTitleSlug().replaceAll("-", " "), x.getLang(),new Date(Long.parseLong(x.getTimestamp()) * 1000).toString(),
+                    x.getLang(), x.getCode())));
+            List<String> langs = dtoMap.keySet().stream().map(x -> String.format("[%s](#%s)", x, q.getTitleSlug() + "-" + x)).collect(Collectors.toList());
+            prints.add(Arrays.asList(q.getQuestionFrontendId(), String.format("[%s](%s/problems/%s)", q.getTitle(), FeignHelper.URL, q.getTitleSlug()),
+                    String.join(",", langs), q.getTopicTags(), q.getDifficulty()));
         }
 
 
+        // fill markdown file
         try(BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("README.md"))) {
             List<String> title = prints.get(0);
             bufferedWriter.write(HELP);

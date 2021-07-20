@@ -2,7 +2,7 @@
 
  ```bash
 export cookie="..." ## cookie from logon leetcode-cn
-java -jar leetcodecn_downloader-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar leetcodecn-downloader-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 Generate db file(sqlite)，and README.md file.
 
@@ -13,9 +13,9 @@ Generate db file(sqlite)，and README.md file.
 #|title|solution|topic|difficulty
 --|--|--|--|--
 1|[Two Sum](https://leetcode-cn.com/problems/two-sum)|[rust](#two-sum-rust),[java](#two-sum-java)|array,hash-table|Easy
-2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers)|[java](#add-two-numbers-java),[rust](#add-two-numbers-rust)|recursion,linked-list,math|Medium
-3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)|[java](#longest-substring-without-repeating-characters-java),[rust](#longest-substring-without-repeating-characters-rust)|hash-table,string,sliding-window|Medium
-4|[Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)|[java](#median-of-two-sorted-arrays-java),[rust](#median-of-two-sorted-arrays-rust)|array,binary-search,divide-and-conquer|Hard
+2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers)|[rust](#add-two-numbers-rust),[java](#add-two-numbers-java)|recursion,linked-list,math|Medium
+3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)|[rust](#longest-substring-without-repeating-characters-rust),[java](#longest-substring-without-repeating-characters-java)|hash-table,string,sliding-window|Medium
+4|[Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)|[rust](#median-of-two-sorted-arrays-rust),[java](#median-of-two-sorted-arrays-java)|array,binary-search,divide-and-conquer|Hard
 5|[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring)|[rust](#longest-palindromic-substring-rust),[java](#longest-palindromic-substring-java)|string,dynamic-programming|Medium
 6|[ZigZag Conversion](https://leetcode-cn.com/problems/zigzag-conversion)|[java](#zigzag-conversion-java)|string|Medium
 7|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer)|[java](#reverse-integer-java)|math|Easy
@@ -30,44 +30,44 @@ Generate db file(sqlite)，and README.md file.
 16|[3Sum Closest](https://leetcode-cn.com/problems/3sum-closest)|[java](#3sum-closest-java)|array,two-pointers,sorting|Medium
 17|[Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|[rust](#letter-combinations-of-a-phone-number-rust),[java](#letter-combinations-of-a-phone-number-java)|hash-table,string,backtracking|Medium
 18|[4Sum](https://leetcode-cn.com/problems/4sum)|[java](#4sum-java)|array,two-pointers,sorting|Medium
-19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)|[java](#remove-nth-node-from-end-of-list-java),[rust](#remove-nth-node-from-end-of-list-rust)|linked-list,two-pointers|Medium
+19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)|[rust](#remove-nth-node-from-end-of-list-rust),[java](#remove-nth-node-from-end-of-list-java)|linked-list,two-pointers|Medium
 20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses)|[rust](#valid-parentheses-rust),[java](#valid-parentheses-java)|stack,string|Easy
-21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists)|[java](#merge-two-sorted-lists-java),[rust](#merge-two-sorted-lists-rust)|recursion,linked-list|Easy
+21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists)|[rust](#merge-two-sorted-lists-rust),[java](#merge-two-sorted-lists-java)|recursion,linked-list|Easy
 22|[Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses)|[rust](#generate-parentheses-rust),[java](#generate-parentheses-java)|string,dynamic-programming,backtracking|Medium
-23|[Merge k Sorted Lists](https://leetcode-cn.com/problems/merge-k-sorted-lists)|[java](#merge-k-sorted-lists-java),[rust](#merge-k-sorted-lists-rust)|linked-list,divide-and-conquer,heap-priority-queue,merge-sort|Hard
+23|[Merge k Sorted Lists](https://leetcode-cn.com/problems/merge-k-sorted-lists)|[rust](#merge-k-sorted-lists-rust),[java](#merge-k-sorted-lists-java)|linked-list,divide-and-conquer,heap-priority-queue,merge-sort|Hard
 24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|[rust](#swap-nodes-in-pairs-rust),[java](#swap-nodes-in-pairs-java)|recursion,linked-list|Medium
 25|[Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group)|[java](#reverse-nodes-in-k-group-java)|recursion,linked-list|Hard
 26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[rust](#remove-duplicates-from-sorted-array-rust),[java](#remove-duplicates-from-sorted-array-java)|array,two-pointers|Easy
-27|[Remove Element](https://leetcode-cn.com/problems/remove-element)|[java](#remove-element-java),[rust](#remove-element-rust)|array,two-pointers|Easy
+27|[Remove Element](https://leetcode-cn.com/problems/remove-element)|[rust](#remove-element-rust),[java](#remove-element-java)|array,two-pointers|Easy
 28|[Implement strStr()](https://leetcode-cn.com/problems/implement-strstr)|[java](#implement-strstr-java)|two-pointers,string,string-matching|Easy
 29|[Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers)|[java](#divide-two-integers-java)|bit-manipulation,math|Medium
 30|[Substring with Concatenation of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|[java](#substring-with-concatenation-of-all-words-java)|hash-table,string,sliding-window|Hard
-31|[Next Permutation](https://leetcode-cn.com/problems/next-permutation)|[java](#next-permutation-java),[rust](#next-permutation-rust)|array,two-pointers|Medium
+31|[Next Permutation](https://leetcode-cn.com/problems/next-permutation)|[rust](#next-permutation-rust),[java](#next-permutation-java)|array,two-pointers|Medium
 32|[Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses)|[rust](#longest-valid-parentheses-rust),[java](#longest-valid-parentheses-java)|stack,string,dynamic-programming|Hard
 33|[Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[rust](#search-in-rotated-sorted-array-rust),[java](#search-in-rotated-sorted-array-java)|array,binary-search|Medium
-34|[Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[java](#find-first-and-last-position-of-element-in-sorted-array-java),[rust](#find-first-and-last-position-of-element-in-sorted-array-rust)|array,binary-search|Medium
-35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position)|[java](#search-insert-position-java),[rust](#search-insert-position-rust)|array,binary-search|Easy
+34|[Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[rust](#find-first-and-last-position-of-element-in-sorted-array-rust),[java](#find-first-and-last-position-of-element-in-sorted-array-java)|array,binary-search|Medium
+35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position)|[rust](#search-insert-position-rust),[java](#search-insert-position-java)|array,binary-search|Easy
 36|[Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku)|[java](#valid-sudoku-java)|array,hash-table,matrix|Medium
 37|[Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver)|[java](#sudoku-solver-java)|array,backtracking,matrix|Hard
 38|[Count and Say](https://leetcode-cn.com/problems/count-and-say)|[java](#count-and-say-java)|string|Medium
-39|[Combination Sum](https://leetcode-cn.com/problems/combination-sum)|[java](#combination-sum-java),[rust](#combination-sum-rust)|array,backtracking|Medium
+39|[Combination Sum](https://leetcode-cn.com/problems/combination-sum)|[rust](#combination-sum-rust),[java](#combination-sum-java)|array,backtracking|Medium
 40|[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii)|[java](#combination-sum-ii-java)|array,backtracking|Medium
 41|[First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive)|[java](#first-missing-positive-java)|array,hash-table|Hard
-42|[Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water)|[java](#trapping-rain-water-java),[rust](#trapping-rain-water-rust)|stack,array,two-pointers,dynamic-programming,monotonic-stack|Hard
+42|[Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water)|[rust](#trapping-rain-water-rust),[java](#trapping-rain-water-java)|stack,array,two-pointers,dynamic-programming,monotonic-stack|Hard
 43|[Multiply Strings](https://leetcode-cn.com/problems/multiply-strings)|[java](#multiply-strings-java)|math,string,simulation|Medium
 44|[Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching)|[java](#wildcard-matching-java)|greedy,recursion,string,dynamic-programming|Hard
 45|[Jump Game II](https://leetcode-cn.com/problems/jump-game-ii)|[java](#jump-game-ii-java)|greedy,array,dynamic-programming|Medium
-46|[Permutations](https://leetcode-cn.com/problems/permutations)|[java](#permutations-java),[rust](#permutations-rust)|array,backtracking|Medium
+46|[Permutations](https://leetcode-cn.com/problems/permutations)|[rust](#permutations-rust),[java](#permutations-java)|array,backtracking|Medium
 47|[Permutations II](https://leetcode-cn.com/problems/permutations-ii)|[java](#permutations-ii-java)|array,backtracking|Medium
 48|[Rotate Image](https://leetcode-cn.com/problems/rotate-image)|[rust](#rotate-image-rust),[java](#rotate-image-java)|array,math,matrix|Medium
-49|[Group Anagrams](https://leetcode-cn.com/problems/group-anagrams)|[java](#group-anagrams-java),[rust](#group-anagrams-rust)|hash-table,string,sorting|Medium
+49|[Group Anagrams](https://leetcode-cn.com/problems/group-anagrams)|[rust](#group-anagrams-rust),[java](#group-anagrams-java)|hash-table,string,sorting|Medium
 50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n)|[java](#powx-n-java)|recursion,math|Medium
 51|[N-Queens](https://leetcode-cn.com/problems/n-queens)|[java](#n-queens-java)|array,backtracking|Hard
 52|[N-Queens II](https://leetcode-cn.com/problems/n-queens-ii)|[java](#n-queens-ii-java)|backtracking|Hard
-53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray)|[java](#maximum-subarray-java),[rust](#maximum-subarray-rust)|array,divide-and-conquer,dynamic-programming|Easy
+53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray)|[rust](#maximum-subarray-rust),[java](#maximum-subarray-java)|array,divide-and-conquer,dynamic-programming|Easy
 54|[Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix)|[java](#spiral-matrix-java)|array,matrix,simulation|Medium
-55|[Jump Game](https://leetcode-cn.com/problems/jump-game)|[java](#jump-game-java),[rust](#jump-game-rust)|greedy,array,dynamic-programming|Medium
-56|[Merge Intervals](https://leetcode-cn.com/problems/merge-intervals)|[java](#merge-intervals-java),[rust](#merge-intervals-rust)|array,sorting|Medium
+55|[Jump Game](https://leetcode-cn.com/problems/jump-game)|[rust](#jump-game-rust),[java](#jump-game-java)|greedy,array,dynamic-programming|Medium
+56|[Merge Intervals](https://leetcode-cn.com/problems/merge-intervals)|[rust](#merge-intervals-rust),[java](#merge-intervals-java)|array,sorting|Medium
 57|[Insert Interval](https://leetcode-cn.com/problems/insert-interval)|[java](#insert-interval-java)|array|Medium
 58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word)|[java](#length-of-last-word-java)|string|Easy
 59|[Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii)|[java](#spiral-matrix-ii-java)|array,matrix,simulation|Medium
@@ -75,15 +75,15 @@ Generate db file(sqlite)，and README.md file.
 61|[Rotate List](https://leetcode-cn.com/problems/rotate-list)|[java](#rotate-list-java)|linked-list,two-pointers|Medium
 62|[Unique Paths](https://leetcode-cn.com/problems/unique-paths)|[rust](#unique-paths-rust),[java](#unique-paths-java)|math,dynamic-programming,combinatorics|Medium
 63|[Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii)|[java](#unique-paths-ii-java)|array,dynamic-programming,matrix|Medium
-64|[Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum)|[java](#minimum-path-sum-java),[rust](#minimum-path-sum-rust)|array,dynamic-programming,matrix|Medium
+64|[Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum)|[rust](#minimum-path-sum-rust),[java](#minimum-path-sum-java)|array,dynamic-programming,matrix|Medium
 65|[Valid Number](https://leetcode-cn.com/problems/valid-number)|[java](#valid-number-java)|string|Hard
 66|[Plus One](https://leetcode-cn.com/problems/plus-one)|[rust](#plus-one-rust),[java](#plus-one-java)|array,math|Easy
 67|[Add Binary](https://leetcode-cn.com/problems/add-binary)|[java](#add-binary-java)|bit-manipulation,math,string,simulation|Easy
 68|[Text Justification](https://leetcode-cn.com/problems/text-justification)|[java](#text-justification-java)|string,simulation|Hard
 69|[Sqrt(x)](https://leetcode-cn.com/problems/sqrtx)|[java](#sqrtx-java)|math,binary-search|Easy
-70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs)|[java](#climbing-stairs-java),[rust](#climbing-stairs-rust)|memoization,math,dynamic-programming|Easy
+70|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs)|[rust](#climbing-stairs-rust),[java](#climbing-stairs-java)|memoization,math,dynamic-programming|Easy
 71|[Simplify Path](https://leetcode-cn.com/problems/simplify-path)|[java](#simplify-path-java)|stack,string|Medium
-72|[Edit Distance](https://leetcode-cn.com/problems/edit-distance)|[java](#edit-distance-java),[rust](#edit-distance-rust)|string,dynamic-programming|Hard
+72|[Edit Distance](https://leetcode-cn.com/problems/edit-distance)|[rust](#edit-distance-rust),[java](#edit-distance-java)|string,dynamic-programming|Hard
 73|[Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes)|[java](#set-matrix-zeroes-java)|array,hash-table,matrix|Medium
 74|[Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|[java](#search-a-2d-matrix-java)|array,binary-search,matrix|Medium
 75|[Sort Colors](https://leetcode-cn.com/problems/sort-colors)|[rust](#sort-colors-rust),[java](#sort-colors-java)|array,two-pointers,sorting|Medium
@@ -107,16 +107,16 @@ Generate db file(sqlite)，and README.md file.
 93|[Restore IP Addresses](https://leetcode-cn.com/problems/restore-ip-addresses)|[java](#restore-ip-addresses-java)|string,backtracking|Medium
 94|[Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|[rust](#binary-tree-inorder-traversal-rust),[java](#binary-tree-inorder-traversal-java)|stack,tree,depth-first-search,binary-tree|Easy
 95|[Unique Binary Search Trees II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|[java](#unique-binary-search-trees-ii-java)|tree,binary-search-tree,dynamic-programming,backtracking,binary-tree|Medium
-96|[Unique Binary Search Trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|[java](#unique-binary-search-trees-java),[rust](#unique-binary-search-trees-rust)|tree,binary-search-tree,math,dynamic-programming,binary-tree|Medium
+96|[Unique Binary Search Trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|[rust](#unique-binary-search-trees-rust),[java](#unique-binary-search-trees-java)|tree,binary-search-tree,math,dynamic-programming,binary-tree|Medium
 97|[Interleaving String](https://leetcode-cn.com/problems/interleaving-string)|[java](#interleaving-string-java)|string,dynamic-programming|Medium
-98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree)|[java](#validate-binary-search-tree-java),[rust](#validate-binary-search-tree-rust)|tree,depth-first-search,binary-search-tree,binary-tree|Medium
+98|[Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree)|[rust](#validate-binary-search-tree-rust),[java](#validate-binary-search-tree-java)|tree,depth-first-search,binary-search-tree,binary-tree|Medium
 99|[Recover Binary Search Tree](https://leetcode-cn.com/problems/recover-binary-search-tree)|[java](#recover-binary-search-tree-java)|tree,depth-first-search,binary-search-tree,binary-tree|Medium
 100|[Same Tree](https://leetcode-cn.com/problems/same-tree)|[java](#same-tree-java)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
 101|[Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree)|[rust](#symmetric-tree-rust),[java](#symmetric-tree-java)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
 102|[Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|[rust](#binary-tree-level-order-traversal-rust),[java](#binary-tree-level-order-traversal-java)|tree,breadth-first-search,binary-tree|Medium
 103|[Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)|[java](#binary-tree-zigzag-level-order-traversal-java)|tree,breadth-first-search,binary-tree|Medium
-104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[java](#maximum-depth-of-binary-tree-java),[rust](#maximum-depth-of-binary-tree-rust)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
-105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[java](#construct-binary-tree-from-preorder-and-inorder-traversal-java),[rust](#construct-binary-tree-from-preorder-and-inorder-traversal-rust)|tree,array,hash-table,divide-and-conquer,binary-tree|Medium
+104|[Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[rust](#maximum-depth-of-binary-tree-rust),[java](#maximum-depth-of-binary-tree-java)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
+105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[rust](#construct-binary-tree-from-preorder-and-inorder-traversal-rust),[java](#construct-binary-tree-from-preorder-and-inorder-traversal-java)|tree,array,hash-table,divide-and-conquer,binary-tree|Medium
 106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[java](#construct-binary-tree-from-inorder-and-postorder-traversal-java)|tree,array,hash-table,divide-and-conquer,binary-tree|Medium
 107|[Binary Tree Level Order Traversal II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii)|[java](#binary-tree-level-order-traversal-ii-java)|tree,breadth-first-search,binary-tree|Medium
 108|[Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree)|[java](#convert-sorted-array-to-binary-search-tree-java)|tree,binary-search-tree,array,divide-and-conquer,binary-tree|Easy
@@ -130,14 +130,14 @@ Generate db file(sqlite)，and README.md file.
 117|[Populating Next Right Pointers in Each Node II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii)|[java](#populating-next-right-pointers-in-each-node-ii-java)|tree,depth-first-search,breadth-first-search,binary-tree|Medium
 118|[Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle)|[java](#pascals-triangle-java)|array,dynamic-programming|Easy
 119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii)|[java](#pascals-triangle-ii-java)|array,dynamic-programming|Easy
-121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[java](#best-time-to-buy-and-sell-stock-java),[rust](#best-time-to-buy-and-sell-stock-rust)|array,dynamic-programming|Easy
-124|[Binary Tree Maximum Path Sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)|[java](#binary-tree-maximum-path-sum-java),[rust](#binary-tree-maximum-path-sum-rust)|tree,depth-first-search,dynamic-programming,binary-tree|Hard
+121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[rust](#best-time-to-buy-and-sell-stock-rust),[java](#best-time-to-buy-and-sell-stock-java)|array,dynamic-programming|Easy
+124|[Binary Tree Maximum Path Sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)|[rust](#binary-tree-maximum-path-sum-rust),[java](#binary-tree-maximum-path-sum-java)|tree,depth-first-search,dynamic-programming,binary-tree|Hard
 126|[Word Ladder II](https://leetcode-cn.com/problems/word-ladder-ii)|[java](#word-ladder-ii-java)|breadth-first-search,hash-table,string,backtracking|Hard
 127|[Word Ladder](https://leetcode-cn.com/problems/word-ladder)|[java](#word-ladder-java)|breadth-first-search,hash-table,string|Hard
-128|[Longest Consecutive Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence)|[java](#longest-consecutive-sequence-java),[rust](#longest-consecutive-sequence-rust)|union-find,array,hash-table|Medium
+128|[Longest Consecutive Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence)|[rust](#longest-consecutive-sequence-rust),[java](#longest-consecutive-sequence-java)|union-find,array,hash-table|Medium
 129|[Sum Root to Leaf Numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers)|[java](#sum-root-to-leaf-numbers-java)|tree,depth-first-search,binary-tree|Medium
 135|[Candy](https://leetcode-cn.com/problems/candy)|[java](#candy-java)|greedy,array|Hard
-136|[Single Number](https://leetcode-cn.com/problems/single-number)|[c](#single-number-c),[rust](#single-number-rust)|bit-manipulation,array|Easy
+136|[Single Number](https://leetcode-cn.com/problems/single-number)|[rust](#single-number-rust),[c](#single-number-c)|bit-manipulation,array|Easy
 137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii)|[java](#single-number-ii-java)|bit-manipulation,array|Medium
 138|[Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|[java](#copy-list-with-random-pointer-java)|hash-table,linked-list|Medium
 139|[Word Break](https://leetcode-cn.com/problems/word-break)|[rust](#word-break-rust),[java](#word-break-java)|trie,memoization,hash-table,string,dynamic-programming|Medium
@@ -145,18 +145,18 @@ Generate db file(sqlite)，and README.md file.
 142|[Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[java](#linked-list-cycle-ii-java)|hash-table,linked-list,two-pointers|Medium
 144|[Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[java](#binary-tree-preorder-traversal-java)|stack,tree,depth-first-search,binary-tree|Easy
 145|[Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[java](#binary-tree-postorder-traversal-java)|stack,tree,depth-first-search,binary-tree|Easy
-146|[LRU Cache](https://leetcode-cn.com/problems/lru-cache)|[java](#lru-cache-java),[rust](#lru-cache-rust)|design,hash-table,linked-list,doubly-linked-list|Medium
+146|[LRU Cache](https://leetcode-cn.com/problems/lru-cache)|[rust](#lru-cache-rust),[java](#lru-cache-java)|design,hash-table,linked-list,doubly-linked-list|Medium
 147|[Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list)|[java](#insertion-sort-list-java)|linked-list,sorting|Medium
 148|[Sort List](https://leetcode-cn.com/problems/sort-list)|[rust](#sort-list-rust),[java](#sort-list-java)|linked-list,two-pointers,divide-and-conquer,sorting,merge-sort|Medium
 149|[Max Points on a Line](https://leetcode-cn.com/problems/max-points-on-a-line)|[java](#max-points-on-a-line-java)|geometry,hash-table,math|Hard
 151|[Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string)|[java](#reverse-words-in-a-string-java)|two-pointers,string|Medium
-152|[Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray)|[java](#maximum-product-subarray-java),[rust](#maximum-product-subarray-rust)|array,dynamic-programming|Medium
+152|[Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray)|[rust](#maximum-product-subarray-rust),[java](#maximum-product-subarray-java)|array,dynamic-programming|Medium
 155|[Min Stack](https://leetcode-cn.com/problems/min-stack)|[rust](#min-stack-rust),[java](#min-stack-java)|stack,design|Easy
 160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists)|[java](#intersection-of-two-linked-lists-java)|hash-table,linked-list,two-pointers|Easy
 164|[Maximum Gap](https://leetcode-cn.com/problems/maximum-gap)|[java](#maximum-gap-java)|array,bucket-sort,radix-sort,sorting|Hard
 165|[Compare Version Numbers](https://leetcode-cn.com/problems/compare-version-numbers)|[java](#compare-version-numbers-java)|two-pointers,string|Medium
 166|[Fraction to Recurring Decimal](https://leetcode-cn.com/problems/fraction-to-recurring-decimal)|[java](#fraction-to-recurring-decimal-java)|hash-table,math,string|Medium
-168|[Excel Sheet Column Title](https://leetcode-cn.com/problems/excel-sheet-column-title)|[java](#excel-sheet-column-title-java),[rust](#excel-sheet-column-title-rust)|math,string|Easy
+168|[Excel Sheet Column Title](https://leetcode-cn.com/problems/excel-sheet-column-title)|[rust](#excel-sheet-column-title-rust),[java](#excel-sheet-column-title-java)|math,string|Easy
 169|[Majority Element](https://leetcode-cn.com/problems/majority-element)|[rust](#majority-element-rust),[java](#majority-element-java)|array,hash-table,divide-and-conquer,counting,sorting|Easy
 171|[Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number)|[java](#excel-sheet-column-number-java)|math,string|Easy
 172|[Factorial Trailing Zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[java](#factorial-trailing-zeroes-java)|math|Easy
@@ -170,24 +170,24 @@ Generate db file(sqlite)，and README.md file.
 183|[Customers Who Never Order](https://leetcode-cn.com/problems/customers-who-never-order)|[mysql](#customers-who-never-order-mysql)|database|Easy
 185|[Department Top Three Salaries](https://leetcode-cn.com/problems/department-top-three-salaries)||database|Hard
 190|[Reverse Bits](https://leetcode-cn.com/problems/reverse-bits)|[java](#reverse-bits-java)|bit-manipulation,divide-and-conquer|Easy
-191|[Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits)|[java](#number-of-1-bits-java),[cpp](#number-of-1-bits-cpp),[c](#number-of-1-bits-c)|bit-manipulation|Easy
+191|[Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits)|[cpp](#number-of-1-bits-cpp),[java](#number-of-1-bits-java),[c](#number-of-1-bits-c)|bit-manipulation|Easy
 195|[Tenth Line](https://leetcode-cn.com/problems/tenth-line)||shell|Easy
 197|[Rising Temperature](https://leetcode-cn.com/problems/rising-temperature)|[mysql](#rising-temperature-mysql)|database|Easy
 198|[House Robber](https://leetcode-cn.com/problems/house-robber)|[rust](#house-robber-rust),[java](#house-robber-java)|array,dynamic-programming|Medium
-200|[Number of Islands](https://leetcode-cn.com/problems/number-of-islands)|[java](#number-of-islands-java),[rust](#number-of-islands-rust)|depth-first-search,breadth-first-search,union-find,array,matrix|Medium
+200|[Number of Islands](https://leetcode-cn.com/problems/number-of-islands)|[rust](#number-of-islands-rust),[java](#number-of-islands-java)|depth-first-search,breadth-first-search,union-find,array,matrix|Medium
 202|[Happy Number](https://leetcode-cn.com/problems/happy-number)|[java](#happy-number-java)|hash-table,math,two-pointers|Easy
-203|[Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements)|[java](#remove-linked-list-elements-java),[rust](#remove-linked-list-elements-rust)|recursion,linked-list|Easy
+203|[Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements)|[rust](#remove-linked-list-elements-rust),[java](#remove-linked-list-elements-java)|recursion,linked-list|Easy
 204|[Count Primes](https://leetcode-cn.com/problems/count-primes)|[java](#count-primes-java)|array,math,enumeration,number-theory|Easy
 206|[Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list)|[rust](#reverse-linked-list-rust),[java](#reverse-linked-list-java)|recursion,linked-list|Easy
-207|[Course Schedule](https://leetcode-cn.com/problems/course-schedule)|[java](#course-schedule-java),[rust](#course-schedule-rust)|depth-first-search,breadth-first-search,graph,topological-sort|Medium
-208|[Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree)|[java](#implement-trie-prefix-tree-java),[rust](#implement-trie-prefix-tree-rust)|design,trie,hash-table,string|Medium
+207|[Course Schedule](https://leetcode-cn.com/problems/course-schedule)|[rust](#course-schedule-rust),[java](#course-schedule-java)|depth-first-search,breadth-first-search,graph,topological-sort|Medium
+208|[Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree)|[rust](#implement-trie-prefix-tree-rust),[java](#implement-trie-prefix-tree-java)|design,trie,hash-table,string|Medium
 209|[Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum)|[java](#minimum-size-subarray-sum-java)|array,binary-search,prefix-sum,sliding-window|Medium
 213|[House Robber II](https://leetcode-cn.com/problems/house-robber-ii)|[java](#house-robber-ii-java)|array,dynamic-programming|Medium
 215|[Kth Largest Element in an Array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|[rust](#kth-largest-element-in-an-array-rust),[java](#kth-largest-element-in-an-array-java)|array,divide-and-conquer,quickselect,sorting,heap-priority-queue|Medium
 217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate)|[java](#contains-duplicate-java)|array,hash-table,sorting|Easy
 218|[The Skyline Problem](https://leetcode-cn.com/problems/the-skyline-problem)|[java](#the-skyline-problem-java)|binary-indexed-tree,segment-tree,array,divide-and-conquer,ordered-set,line-sweep,heap-priority-queue|Hard
 219|[Contains Duplicate II](https://leetcode-cn.com/problems/contains-duplicate-ii)|[java](#contains-duplicate-ii-java)|array,hash-table,sliding-window|Easy
-221|[Maximal Square](https://leetcode-cn.com/problems/maximal-square)|[java](#maximal-square-java),[rust](#maximal-square-rust)|array,dynamic-programming,matrix|Medium
+221|[Maximal Square](https://leetcode-cn.com/problems/maximal-square)|[rust](#maximal-square-rust),[java](#maximal-square-java)|array,dynamic-programming,matrix|Medium
 224|[Basic Calculator](https://leetcode-cn.com/problems/basic-calculator)||stack,recursion,math,string|Hard
 225|[Implement Stack using Queues](https://leetcode-cn.com/problems/implement-stack-using-queues)|[java](#implement-stack-using-queues-java)|stack,design,queue|Easy
 226|[Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree)|[rust](#invert-binary-tree-rust),[java](#invert-binary-tree-java)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
@@ -196,13 +196,13 @@ Generate db file(sqlite)，and README.md file.
 230|[Kth Smallest Element in a BST](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)|[java](#kth-smallest-element-in-a-bst-java)|tree,depth-first-search,binary-search-tree,binary-tree|Medium
 231|[Power of Two](https://leetcode-cn.com/problems/power-of-two)|[c](#power-of-two-c),[java](#power-of-two-java)|bit-manipulation,recursion,math|Easy
 232|[Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[java](#implement-queue-using-stacks-java)|stack,design,queue|Easy
-234|[Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list)|[java](#palindrome-linked-list-java),[rust](#palindrome-linked-list-rust)|stack,recursion,linked-list,two-pointers|Easy
+234|[Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list)|[rust](#palindrome-linked-list-rust),[java](#palindrome-linked-list-java)|stack,recursion,linked-list,two-pointers|Easy
 235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[java](#lowest-common-ancestor-of-a-binary-search-tree-java)|tree,depth-first-search,binary-search-tree,binary-tree|Easy
-236|[Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)|[java](#lowest-common-ancestor-of-a-binary-tree-java),[rust](#lowest-common-ancestor-of-a-binary-tree-rust)|tree,depth-first-search,binary-tree|Medium
+236|[Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)|[rust](#lowest-common-ancestor-of-a-binary-tree-rust),[java](#lowest-common-ancestor-of-a-binary-tree-java)|tree,depth-first-search,binary-tree|Medium
 237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[java](#delete-node-in-a-linked-list-java)|linked-list|Easy
 238|[Product of Array Except Self](https://leetcode-cn.com/problems/product-of-array-except-self)|[rust](#product-of-array-except-self-rust),[java](#product-of-array-except-self-java)|array,prefix-sum|Medium
-239|[Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum)|[java](#sliding-window-maximum-java),[rust](#sliding-window-maximum-rust)|queue,array,sliding-window,monotonic-queue,heap-priority-queue|Hard
-240|[Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii)|[java](#search-a-2d-matrix-ii-java),[rust](#search-a-2d-matrix-ii-rust)|array,binary-search,divide-and-conquer,matrix|Medium
+239|[Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum)|[rust](#sliding-window-maximum-rust),[java](#sliding-window-maximum-java)|queue,array,sliding-window,monotonic-queue,heap-priority-queue|Hard
+240|[Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii)|[rust](#search-a-2d-matrix-ii-rust),[java](#search-a-2d-matrix-ii-java)|array,binary-search,divide-and-conquer,matrix|Medium
 241|[Different Ways to Add Parentheses](https://leetcode-cn.com/problems/different-ways-to-add-parentheses)|[java](#different-ways-to-add-parentheses-java)|recursion,memoization,math,string,dynamic-programming|Medium
 242|[Valid Anagram](https://leetcode-cn.com/problems/valid-anagram)|[java](#valid-anagram-java)|hash-table,string,sorting|Easy
 257|[Binary Tree Paths](https://leetcode-cn.com/problems/binary-tree-paths)|[java](#binary-tree-paths-java)|tree,depth-first-search,string,binary-tree|Easy
@@ -215,24 +215,24 @@ Generate db file(sqlite)，and README.md file.
 274|[H-Index](https://leetcode-cn.com/problems/h-index)|[rust](#h-index-rust),[java](#h-index-java)|array,counting-sort,sorting|Medium
 275|[H-Index II](https://leetcode-cn.com/problems/h-index-ii)|[rust](#h-index-ii-rust),[java](#h-index-ii-java)|array,binary-search|Medium
 278|[First Bad Version](https://leetcode-cn.com/problems/first-bad-version)|[java](#first-bad-version-java)|binary-search,interactive|Easy
-279|[Perfect Squares](https://leetcode-cn.com/problems/perfect-squares)|[java](#perfect-squares-java),[rust](#perfect-squares-rust)|breadth-first-search,math,dynamic-programming|Medium
+279|[Perfect Squares](https://leetcode-cn.com/problems/perfect-squares)|[rust](#perfect-squares-rust),[java](#perfect-squares-java)|breadth-first-search,math,dynamic-programming|Medium
 283|[Move Zeroes](https://leetcode-cn.com/problems/move-zeroes)|[rust](#move-zeroes-rust),[java](#move-zeroes-java)|array,two-pointers|Easy
-287|[Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number)|[java](#find-the-duplicate-number-java),[rust](#find-the-duplicate-number-rust)|bit-manipulation,array,two-pointers,binary-search|Medium
+287|[Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number)|[rust](#find-the-duplicate-number-rust),[java](#find-the-duplicate-number-java)|bit-manipulation,array,two-pointers,binary-search|Medium
 289|[Game of Life](https://leetcode-cn.com/problems/game-of-life)|[java](#game-of-life-java)|array,matrix,simulation|Medium
 292|[Nim Game](https://leetcode-cn.com/problems/nim-game)|[java](#nim-game-java)|brainteaser,math,game-theory|Easy
 297|[Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)|[rust](#serialize-and-deserialize-binary-tree-rust),[java](#serialize-and-deserialize-binary-tree-java)|tree,depth-first-search,breadth-first-search,design,string,binary-tree|Hard
 300|[Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence)|[rust](#longest-increasing-subsequence-rust),[java](#longest-increasing-subsequence-java)|array,binary-search,dynamic-programming|Medium
-301|[Remove Invalid Parentheses](https://leetcode-cn.com/problems/remove-invalid-parentheses)|[java](#remove-invalid-parentheses-java),[rust](#remove-invalid-parentheses-rust)|breadth-first-search,string,backtracking|Hard
+301|[Remove Invalid Parentheses](https://leetcode-cn.com/problems/remove-invalid-parentheses)|[rust](#remove-invalid-parentheses-rust),[java](#remove-invalid-parentheses-java)|breadth-first-search,string,backtracking|Hard
 303|[Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable)|[java](#range-sum-query-immutable-java)|design,array,prefix-sum|Easy
-309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|[java](#best-time-to-buy-and-sell-stock-with-cooldown-java),[rust](#best-time-to-buy-and-sell-stock-with-cooldown-rust)|array,dynamic-programming|Medium
-312|[Burst Balloons](https://leetcode-cn.com/problems/burst-balloons)|[java](#burst-balloons-java),[rust](#burst-balloons-rust)|array,dynamic-programming|Hard
+309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|[rust](#best-time-to-buy-and-sell-stock-with-cooldown-rust),[java](#best-time-to-buy-and-sell-stock-with-cooldown-java)|array,dynamic-programming|Medium
+312|[Burst Balloons](https://leetcode-cn.com/problems/burst-balloons)|[rust](#burst-balloons-rust),[java](#burst-balloons-java)|array,dynamic-programming|Hard
 316|[Remove Duplicate Letters](https://leetcode-cn.com/problems/remove-duplicate-letters)|[rust](#remove-duplicate-letters-rust)|stack,greedy,string,monotonic-stack|Medium
-322|[Coin Change](https://leetcode-cn.com/problems/coin-change)|[java](#coin-change-java),[rust](#coin-change-rust)|breadth-first-search,array,dynamic-programming|Medium
+322|[Coin Change](https://leetcode-cn.com/problems/coin-change)|[rust](#coin-change-rust),[java](#coin-change-java)|breadth-first-search,array,dynamic-programming|Medium
 337|[House Robber III](https://leetcode-cn.com/problems/house-robber-iii)|[rust](#house-robber-iii-rust),[java](#house-robber-iii-java)|tree,depth-first-search,dynamic-programming,binary-tree|Medium
-338|[Counting Bits](https://leetcode-cn.com/problems/counting-bits)|[java](#counting-bits-java),[rust](#counting-bits-rust)|bit-manipulation,dynamic-programming|Easy
+338|[Counting Bits](https://leetcode-cn.com/problems/counting-bits)|[rust](#counting-bits-rust),[java](#counting-bits-java)|bit-manipulation,dynamic-programming|Easy
 342|[Power of Four](https://leetcode-cn.com/problems/power-of-four)|[java](#power-of-four-java)|bit-manipulation,recursion,math|Easy
 344|[Reverse String](https://leetcode-cn.com/problems/reverse-string)|[java](#reverse-string-java)|recursion,two-pointers,string|Easy
-347|[Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements)|[java](#top-k-frequent-elements-java),[rust](#top-k-frequent-elements-rust)|array,hash-table,divide-and-conquer,bucket-sort,counting,quickselect,sorting,heap-priority-queue|Medium
+347|[Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements)|[rust](#top-k-frequent-elements-rust),[java](#top-k-frequent-elements-java)|array,hash-table,divide-and-conquer,bucket-sort,counting,quickselect,sorting,heap-priority-queue|Medium
 349|[Intersection of Two Arrays](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[java](#intersection-of-two-arrays-java)|array,hash-table,two-pointers,binary-search,sorting|Easy
 363|[Max Sum of Rectangle No Larger Than K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k)|[java](#max-sum-of-rectangle-no-larger-than-k-java)|array,binary-search,dynamic-programming,matrix,ordered-set|Hard
 365|[Water and Jug Problem](https://leetcode-cn.com/problems/water-and-jug-problem)|[java](#water-and-jug-problem-java)|depth-first-search,breadth-first-search,math|Medium
@@ -245,38 +245,38 @@ Generate db file(sqlite)，and README.md file.
 401|[Binary Watch](https://leetcode-cn.com/problems/binary-watch)|[java](#binary-watch-java)|bit-manipulation,backtracking|Easy
 403|[Frog Jump](https://leetcode-cn.com/problems/frog-jump)|[java](#frog-jump-java)|array,dynamic-programming|Hard
 406|[Queue Reconstruction by Height](https://leetcode-cn.com/problems/queue-reconstruction-by-height)|[rust](#queue-reconstruction-by-height-rust),[java](#queue-reconstruction-by-height-java)|greedy,array,sorting|Medium
-416|[Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum)|[java](#partition-equal-subset-sum-java),[rust](#partition-equal-subset-sum-rust)|array,dynamic-programming|Medium
-437|[Path Sum III](https://leetcode-cn.com/problems/path-sum-iii)|[java](#path-sum-iii-java),[rust](#path-sum-iii-rust)|tree,depth-first-search,binary-tree|Medium
-438|[Find All Anagrams in a String](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[java](#find-all-anagrams-in-a-string-java),[rust](#find-all-anagrams-in-a-string-rust)|hash-table,string,sliding-window|Medium
+416|[Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum)|[rust](#partition-equal-subset-sum-rust),[java](#partition-equal-subset-sum-java)|array,dynamic-programming|Medium
+437|[Path Sum III](https://leetcode-cn.com/problems/path-sum-iii)|[rust](#path-sum-iii-rust),[java](#path-sum-iii-java)|tree,depth-first-search,binary-tree|Medium
+438|[Find All Anagrams in a String](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[rust](#find-all-anagrams-in-a-string-rust),[java](#find-all-anagrams-in-a-string-java)|hash-table,string,sliding-window|Medium
 448|[Find All Numbers Disappeared in an Array](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[rust](#find-all-numbers-disappeared-in-an-array-rust),[java](#find-all-numbers-disappeared-in-an-array-java)|array,hash-table|Easy
 451|[Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[rust](#sort-characters-by-frequency-rust)|hash-table,string,bucket-sort,counting,sorting,heap-priority-queue|Medium
 461|[Hamming Distance](https://leetcode-cn.com/problems/hamming-distance)|[rust](#hamming-distance-rust),[java](#hamming-distance-java)|bit-manipulation|Easy
 474|[Ones and Zeroes](https://leetcode-cn.com/problems/ones-and-zeroes)|[java](#ones-and-zeroes-java)|array,string,dynamic-programming|Medium
 477|[Total Hamming Distance](https://leetcode-cn.com/problems/total-hamming-distance)|[java](#total-hamming-distance-java)|bit-manipulation,array,math|Medium
 483|[Smallest Good Base](https://leetcode-cn.com/problems/smallest-good-base)|[java](#smallest-good-base-java)|math,binary-search|Hard
-494|[Target Sum](https://leetcode-cn.com/problems/target-sum)|[java](#target-sum-java),[rust](#target-sum-rust)|array,dynamic-programming,backtracking|Medium
+494|[Target Sum](https://leetcode-cn.com/problems/target-sum)|[rust](#target-sum-rust),[java](#target-sum-java)|array,dynamic-programming,backtracking|Medium
 518|[Coin Change 2](https://leetcode-cn.com/problems/coin-change-2)|[java](#coin-change-2-java)|array,dynamic-programming|Medium
 523|[Continuous Subarray Sum](https://leetcode-cn.com/problems/continuous-subarray-sum)|[java](#continuous-subarray-sum-java)|array,hash-table,math,prefix-sum|Medium
 525|[Contiguous Array](https://leetcode-cn.com/problems/contiguous-array)|[java](#contiguous-array-java)|array,hash-table,prefix-sum|Medium
-538|[Convert BST to Greater Tree](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)|[java](#convert-bst-to-greater-tree-java),[rust](#convert-bst-to-greater-tree-rust)|tree,depth-first-search,binary-search-tree,binary-tree|Medium
+538|[Convert BST to Greater Tree](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)|[rust](#convert-bst-to-greater-tree-rust),[java](#convert-bst-to-greater-tree-java)|tree,depth-first-search,binary-search-tree,binary-tree|Medium
 543|[Diameter of Binary Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree)|[rust](#diameter-of-binary-tree-rust),[java](#diameter-of-binary-tree-java)|tree,depth-first-search,binary-tree|Easy
-560|[Subarray Sum Equals K](https://leetcode-cn.com/problems/subarray-sum-equals-k)|[java](#subarray-sum-equals-k-java),[rust](#subarray-sum-equals-k-rust)|array,hash-table,prefix-sum|Medium
+560|[Subarray Sum Equals K](https://leetcode-cn.com/problems/subarray-sum-equals-k)|[rust](#subarray-sum-equals-k-rust),[java](#subarray-sum-equals-k-java)|array,hash-table,prefix-sum|Medium
 567|[Permutation in String](https://leetcode-cn.com/problems/permutation-in-string)|[java](#permutation-in-string-java)|hash-table,two-pointers,string,sliding-window|Medium
 581|[Shortest Unsorted Continuous Subarray](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray)|[rust](#shortest-unsorted-continuous-subarray-rust),[java](#shortest-unsorted-continuous-subarray-java)|stack,greedy,array,two-pointers,sorting,monotonic-stack|Medium
 595|[Big Countries](https://leetcode-cn.com/problems/big-countries)|[mysql](#big-countries-mysql)|database|Easy
 596|[Classes More Than 5 Students](https://leetcode-cn.com/problems/classes-more-than-5-students)|[mysql](#classes-more-than-5-students-mysql)|database|Easy
 600|[Non-negative Integers without Consecutive Ones](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones)|[java](#non-negative-integers-without-consecutive-ones-java)|dynamic-programming|Hard
-617|[Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees)|[java](#merge-two-binary-trees-java),[rust](#merge-two-binary-trees-rust)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
+617|[Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees)|[rust](#merge-two-binary-trees-rust),[java](#merge-two-binary-trees-java)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
 620|[Not Boring Movies](https://leetcode-cn.com/problems/not-boring-movies)|[mysql](#not-boring-movies-mysql)|database|Easy
 621|[Task Scheduler](https://leetcode-cn.com/problems/task-scheduler)|[rust](#task-scheduler-rust),[java](#task-scheduler-java)|greedy,array,hash-table,counting,sorting,heap-priority-queue|Medium
 626|[Exchange Seats](https://leetcode-cn.com/problems/exchange-seats)|[mysql](#exchange-seats-mysql)|database|Medium
 627|[Swap Salary](https://leetcode-cn.com/problems/swap-salary)|[mysql](#swap-salary-mysql)|database|Easy
 633|[Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers)|[java](#sum-of-square-numbers-java)|math,two-pointers,binary-search|Medium
 645|[Set Mismatch](https://leetcode-cn.com/problems/set-mismatch)|[rust](#set-mismatch-rust)|bit-manipulation,array,hash-table,sorting|Easy
-647|[Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings)|[java](#palindromic-substrings-java),[rust](#palindromic-substrings-rust)|string,dynamic-programming|Medium
+647|[Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings)|[rust](#palindromic-substrings-rust),[java](#palindromic-substrings-java)|string,dynamic-programming|Medium
 692|[Top K Frequent Words](https://leetcode-cn.com/problems/top-k-frequent-words)|[java](#top-k-frequent-words-java)|trie,hash-table,string,bucket-sort,counting,sorting,heap-priority-queue|Medium
 726|[Number of Atoms](https://leetcode-cn.com/problems/number-of-atoms)|[rust](#number-of-atoms-rust)|stack,hash-table,string|Hard
-739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures)|[java](#daily-temperatures-java),[rust](#daily-temperatures-rust)|stack,array,monotonic-stack|Medium
+739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures)|[rust](#daily-temperatures-rust),[java](#daily-temperatures-java)|stack,array,monotonic-stack|Medium
 752|[Open the Lock](https://leetcode-cn.com/problems/open-the-lock)|[java](#open-the-lock-java)|breadth-first-search,array,hash-table,string|Medium
 773|[Sliding Puzzle](https://leetcode-cn.com/problems/sliding-puzzle)|[java](#sliding-puzzle-java)|breadth-first-search,array,matrix|Hard
 815|[Bus Routes](https://leetcode-cn.com/problems/bus-routes)|[java](#bus-routes-java)|breadth-first-search,array,hash-table|Hard
@@ -311,7 +311,7 @@ Generate db file(sqlite)，and README.md file.
 1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)|[java](#can-you-eat-your-favorite-candy-on-your-favorite-day-java)|array,prefix-sum|Medium
 1818|[Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/minimum-absolute-sum-difference)|[rust](#minimum-absolute-sum-difference-rust)|greedy,array,binary-search,ordered-set|Medium
 1833|[Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[rust](#maximum-ice-cream-bars-rust)|greedy,array,sorting|Medium
-1838|[Frequency of the Most Frequent Element](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element)|[java](#frequency-of-the-most-frequent-element-java),[rust](#frequency-of-the-most-frequent-element-rust)|array,binary-search,prefix-sum,sliding-window|Medium
+1838|[Frequency of the Most Frequent Element](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element)|[rust](#frequency-of-the-most-frequent-element-rust),[java](#frequency-of-the-most-frequent-element-java)|array,binary-search,prefix-sum,sliding-window|Medium
 1846|[Maximum Element After Decreasing and Rearranging](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)|[rust](#maximum-element-after-decreasing-and-rearranging-rust)|greedy,array,sorting|Medium
 1877|[Minimize Maximum Pair Sum in Array](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[rust](#minimize-maximum-pair-sum-in-array-rust)|greedy,array,two-pointers,sorting|Medium
 LCP 07|[传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi)|[rust](#chuan-di-xin-xi-rust)|depth-first-search,breadth-first-search,graph,dynamic-programming|Easy
@@ -323,6 +323,8 @@ LCP 07|[传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi)|[rust](#
 面试题 10.02|[Group Anagrams LCCI](https://leetcode-cn.com/problems/group-anagrams-lcci)|[rust](#group-anagrams-lcci-rust)|hash-table,string,sorting|Medium
 面试题 17.10|[Find Majority Element LCCI](https://leetcode-cn.com/problems/find-majority-element-lcci)|[rust](#find-majority-element-lcci-rust)|array,counting|Easy
 ### two sum rust
+
+> submit time: Tue Jun 29 15:21:52 CST 2021
 
 ```rust
 impl Solution {
@@ -351,6 +353,8 @@ impl Solution {
 
 ### two sum java
 
+> submit time: Sun Sep 13 20:06:19 CST 2015
+
 ```java
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -368,6 +372,8 @@ public class Solution {
 ```
 
 ### add two numbers rust
+
+> submit time: Thu Jul 01 14:16:05 CST 2021
 
 ```rust
 // Definition for singly-linked list.
@@ -418,6 +424,8 @@ impl Solution {
 ```
 
 ### add two numbers java
+
+> submit time: Sun Sep 13 20:34:02 CST 2015
 
 ```java
 /**
@@ -486,6 +494,8 @@ public class Solution {
 
 ### longest substring without repeating characters rust
 
+> submit time: Sat Jul 03 11:08:16 CST 2021
+
 ```rust
 impl Solution {
 
@@ -508,6 +518,8 @@ impl Solution {
 
 ### longest substring without repeating characters java
 
+> submit time: Sun May 30 09:20:43 CST 2021
+
 ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -525,6 +537,8 @@ class Solution {
 ```
 
 ### median of two sorted arrays rust
+
+> submit time: Mon Jul 05 15:00:17 CST 2021
 
 ```rust
 impl Solution {
@@ -572,6 +586,8 @@ impl Solution {
 
 ### median of two sorted arrays java
 
+> submit time: Fri Apr 23 17:57:54 CST 2021
+
 ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
@@ -611,6 +627,8 @@ class Solution {
 
 ### longest palindromic substring rust
 
+> submit time: Mon Jul 05 15:42:09 CST 2021
+
 ```rust
 impl Solution {
 
@@ -641,6 +659,8 @@ impl Solution {
 
 ### longest palindromic substring java
 
+> submit time: Thu Jun 03 16:29:38 CST 2021
+
 ```java
 class Solution {
     public String longestPalindrome(String s) {
@@ -669,6 +689,8 @@ class Solution {
 ```
 
 ### zigzag conversion java
+
+> submit time: Wed Sep 09 19:45:02 CST 2015
 
 ```java
 public class Solution {
@@ -701,6 +723,8 @@ public class Solution {
 
 ### reverse integer java
 
+> submit time: Wed Sep 09 22:32:36 CST 2015
+
 ```java
 public class Solution {
     public int reverse(int x) {
@@ -717,6 +741,8 @@ public class Solution {
 ```
 
 ### string to integer atoi java
+
+> submit time: Sat Sep 12 12:53:41 CST 2015
 
 ```java
 public class Solution {
@@ -744,6 +770,8 @@ public class Solution {
 
 ### palindrome number java
 
+> submit time: Tue Apr 27 09:52:42 CST 2021
+
 ```java
 class Solution {
     public boolean isPalindrome(int x) {
@@ -754,6 +782,8 @@ class Solution {
 ```
 
 ### regular expression matching rust
+
+> submit time: Mon Jul 12 16:48:48 CST 2021
 
 ```rust
 impl Solution {
@@ -785,6 +815,8 @@ impl Solution {
 ```
 
 ### regular expression matching java
+
+> submit time: Fri Jun 04 13:40:47 CST 2021
 
 ```java
 class Solution {
@@ -841,6 +873,8 @@ class Solution {
 
 ### container with most water rust
 
+> submit time: Wed Jul 07 10:09:39 CST 2021
+
 ```rust
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
@@ -862,6 +896,8 @@ impl Solution {
 ```
 
 ### container with most water java
+
+> submit time: Mon Sep 14 00:08:15 CST 2015
 
 ```java
 public class Solution {
@@ -890,6 +926,8 @@ public class Solution {
 
 ### integer to roman java
 
+> submit time: Thu Jun 24 10:44:06 CST 2021
+
 ```java
 class Solution {
     
@@ -916,6 +954,8 @@ class Solution {
 ```
 
 ### roman to integer java
+
+> submit time: Thu Jun 24 10:17:32 CST 2021
 
 ```java
 class Solution {
@@ -950,6 +990,8 @@ class Solution {
 
 ### longest common prefix java
 
+> submit time: Mon Jun 21 10:39:24 CST 2021
+
 ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
@@ -970,6 +1012,8 @@ class Solution {
 ```
 
 ### 3sum rust
+
+> submit time: Tue Jul 06 14:30:04 CST 2021
 
 ```rust
 impl Solution {
@@ -1018,6 +1062,8 @@ impl Solution {
 
 ### 3sum java
 
+> submit time: Fri Apr 30 16:58:39 CST 2021
+
 ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
@@ -1057,6 +1103,8 @@ class Solution {
 
 ### 3sum closest java
 
+> submit time: Thu Jun 24 15:17:06 CST 2021
+
 ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
@@ -1087,6 +1135,8 @@ class Solution {
 ```
 
 ### letter combinations of a phone number rust
+
+> submit time: Tue Jul 06 14:52:36 CST 2021
 
 ```rust
 impl Solution {
@@ -1124,6 +1174,8 @@ impl Solution {
 
 ### letter combinations of a phone number java
 
+> submit time: Wed Oct 07 13:35:08 CST 2015
+
 ```java
 public class Solution {
     public List<String> letterCombinations(String digits) {
@@ -1155,6 +1207,8 @@ public class Solution {
 ```
 
 ### 4sum java
+
+> submit time: Fri Jun 25 14:57:59 CST 2021
 
 ```java
 class Solution {
@@ -1214,6 +1268,8 @@ class Solution {
 
 ### remove nth node from end of list rust
 
+> submit time: Thu Jul 01 16:13:29 CST 2021
+
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -1259,6 +1315,8 @@ impl Solution {
 
 ### remove nth node from end of list java
 
+> submit time: Mon Oct 05 09:37:36 CST 2015
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -1284,6 +1342,8 @@ public class Solution {
 ```
 
 ### valid parentheses rust
+
+> submit time: Fri Jul 02 13:57:32 CST 2021
 
 ```rust
 impl Solution {
@@ -1316,6 +1376,8 @@ impl Solution {
 
 ### valid parentheses java
 
+> submit time: Mon Oct 05 16:15:33 CST 2015
+
 ```java
 public class Solution {
     public boolean isValid(String s) {
@@ -1345,6 +1407,8 @@ public class Solution {
 ```
 
 ### merge two sorted lists rust
+
+> submit time: Wed Jun 30 14:03:08 CST 2021
 
 ```rust
 // Definition for singly-linked list.
@@ -1399,6 +1463,8 @@ impl Solution {
 
 ### merge two sorted lists java
 
+> submit time: Sun Sep 13 10:57:36 CST 2015
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -1452,6 +1518,8 @@ public class Solution {
 
 ### generate parentheses rust
 
+> submit time: Sun Jul 11 10:41:45 CST 2021
+
 ```rust
 impl Solution {
 
@@ -1482,6 +1550,8 @@ impl Solution {
 ```
 
 ### generate parentheses java
+
+> submit time: Wed Apr 28 18:06:01 CST 2021
 
 ```java
 class Solution {
@@ -1516,6 +1586,8 @@ class Solution {
 ```
 
 ### merge k sorted lists rust
+
+> submit time: Thu Jul 15 15:33:10 CST 2021
 
 ```rust
 // Definition for singly-linked list.
@@ -1566,6 +1638,8 @@ impl Solution {
 
 ### merge k sorted lists java
 
+> submit time: Fri Oct 02 19:18:29 CST 2015
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -1611,6 +1685,8 @@ public class Solution {
 
 ### swap nodes in pairs rust
 
+> submit time: Thu Jul 01 18:20:09 CST 2021
+
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -1652,6 +1728,8 @@ impl Solution {
 
 ### swap nodes in pairs java
 
+> submit time: Wed Aug 12 20:24:57 CST 2015
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -1686,6 +1764,8 @@ public class Solution {
 ```
 
 ### reverse nodes in k group java
+
+> submit time: Tue Oct 06 00:37:44 CST 2015
 
 ```java
 /**
@@ -1745,6 +1825,8 @@ public class Solution {
 
 ### remove duplicates from sorted array rust
 
+> submit time: Tue Jun 29 16:14:15 CST 2021
+
 ```rust
 impl Solution {
 
@@ -1767,6 +1849,8 @@ impl Solution {
 
 ### remove duplicates from sorted array java
 
+> submit time: Sat Sep 12 16:30:02 CST 2015
+
 ```java
 public class Solution {
     public int removeDuplicates(int[] nums) {
@@ -1783,6 +1867,8 @@ public class Solution {
 ```
 
 ### remove element rust
+
+> submit time: Tue Jun 29 16:29:53 CST 2021
 
 ```rust
 impl Solution {
@@ -1802,6 +1888,8 @@ impl Solution {
 ```
 
 ### remove element java
+
+> submit time: Mon Apr 19 11:36:37 CST 2021
 
 ```java
 class Solution {
@@ -1830,6 +1918,8 @@ class Solution {
 
 ### implement strstr java
 
+> submit time: Tue Apr 20 09:17:01 CST 2021
+
 ```java
 class Solution {
     public int strStr(String haystack, String needle) {
@@ -1839,6 +1929,8 @@ class Solution {
 ```
 
 ### divide two integers java
+
+> submit time: Sun Sep 20 16:40:59 CST 2015
 
 ```java
 public class Solution {
@@ -1868,6 +1960,8 @@ public class Solution {
 
 ### substring with concatenation of all words java
 
+> submit time: Thu Jun 24 22:09:53 CST 2021
+
 ```java
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
@@ -1891,6 +1985,8 @@ class Solution {
 ```
 
 ### next permutation rust
+
+> submit time: Tue Jul 06 16:12:47 CST 2021
 
 ```rust
 impl Solution {
@@ -1922,6 +2018,8 @@ impl Solution {
 
 ### next permutation java
 
+> submit time: Thu Dec 10 18:45:06 CST 2015
+
 ```java
 public class Solution {
     public void nextPermutation(int[] nums) {
@@ -1950,6 +2048,8 @@ public class Solution {
 
 ### longest valid parentheses rust
 
+> submit time: Mon Jul 12 16:03:00 CST 2021
+
 ```rust
 impl Solution {
     
@@ -1977,6 +2077,8 @@ impl Solution {
 
 ### longest valid parentheses java
 
+> submit time: Thu Jun 17 14:54:47 CST 2021
+
 ```java
 class Solution {
     public int longestValidParentheses(String s) {
@@ -2001,6 +2103,8 @@ class Solution {
 ```
 
 ### search in rotated sorted array rust
+
+> submit time: Thu Jul 15 16:24:17 CST 2021
 
 ```rust
 impl Solution {
@@ -2041,6 +2145,8 @@ impl Solution {
 ```
 
 ### search in rotated sorted array java
+
+> submit time: Sat Jun 05 22:19:27 CST 2021
 
 ```java
 class Solution {
@@ -2085,6 +2191,8 @@ class Solution {
 ```
 
 ### find first and last position of element in sorted array rust
+
+> submit time: Thu Jul 15 16:47:38 CST 2021
 
 ```rust
 impl Solution {
@@ -2132,6 +2240,8 @@ impl Solution {
 
 ### find first and last position of element in sorted array java
 
+> submit time: Sun Jun 06 12:05:44 CST 2021
+
 ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
@@ -2167,6 +2277,8 @@ class Solution {
 
 ### search insert position rust
 
+> submit time: Tue Jun 29 16:59:18 CST 2021
+
 ```rust
 impl Solution {
 
@@ -2194,6 +2306,8 @@ impl Solution {
 
 ### search insert position java
 
+> submit time: Fri Jun 25 10:37:26 CST 2021
+
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
@@ -2215,6 +2329,8 @@ class Solution {
 ```
 
 ### valid sudoku java
+
+> submit time: Fri Oct 02 01:06:03 CST 2015
 
 ```java
 public class Solution {
@@ -2258,6 +2374,8 @@ public class Solution {
 ```
 
 ### sudoku solver java
+
+> submit time: Fri Oct 02 00:43:02 CST 2015
 
 ```java
 import java.util.ArrayList;
@@ -2315,6 +2433,8 @@ public class Solution {
 
 ### count and say java
 
+> submit time: Fri Apr 30 16:02:07 CST 2021
+
 ```java
 class Solution {
     public String countAndSay(int n) {
@@ -2344,6 +2464,8 @@ class Solution {
 
 ### combination sum rust
 
+> submit time: Tue Jul 06 16:27:23 CST 2021
+
 ```rust
 impl Solution {
 
@@ -2368,6 +2490,8 @@ impl Solution {
 ```
 
 ### combination sum java
+
+> submit time: Wed Apr 28 18:33:15 CST 2021
 
 ```java
 class Solution {
@@ -2399,6 +2523,8 @@ class Solution {
 ```
 
 ### combination sum ii java
+
+> submit time: Thu Jun 24 22:56:32 CST 2021
 
 ```java
 class Solution {
@@ -2436,6 +2562,8 @@ class Solution {
 
 ### first missing positive java
 
+> submit time: Sat Sep 12 23:01:11 CST 2015
+
 ```java
 public class Solution {
     public int firstMissingPositive(int[] nums) {
@@ -2461,6 +2589,8 @@ public class Solution {
 ```
 
 ### trapping rain water rust
+
+> submit time: Tue Jul 06 22:26:43 CST 2021
 
 ```rust
 impl Solution {
@@ -2507,6 +2637,8 @@ impl Solution {
 
 ### trapping rain water java
 
+> submit time: Mon May 31 10:37:41 CST 2021
+
 ```java
 class Solution {
     public int trap(int[] height) {
@@ -2552,6 +2684,8 @@ class Solution {
 
 ### multiply strings java
 
+> submit time: Wed Jun 23 21:46:59 CST 2021
+
 ```java
 class Solution {
     public String multiply(String num1, String num2) {
@@ -2585,6 +2719,8 @@ class Solution {
 
 ### wildcard matching java
 
+> submit time: Mon Jun 21 11:13:23 CST 2021
+
 ```java
 class Solution {
     public boolean isMatch(String s, String p) {
@@ -2615,6 +2751,8 @@ class Solution {
 ```
 
 ### jump game ii java
+
+> submit time: Thu Jun 24 23:33:25 CST 2021
 
 ```java
 class Solution {
@@ -2647,6 +2785,8 @@ class Solution {
 
 ### permutations rust
 
+> submit time: Thu Jul 15 10:30:34 CST 2021
+
 ```rust
 impl Solution {
 
@@ -2676,6 +2816,8 @@ impl Solution {
 ```
 
 ### permutations java
+
+> submit time: Thu Dec 10 11:56:40 CST 2015
 
 ```java
 public class Solution {
@@ -2716,6 +2858,8 @@ public class Solution {
 
 ### permutations ii java
 
+> submit time: Mon Apr 19 10:36:47 CST 2021
+
 ```java
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
@@ -2750,6 +2894,8 @@ class Solution {
 
 ### rotate image rust
 
+> submit time: Tue Jul 13 20:48:38 CST 2021
+
 ```rust
 impl Solution {
     
@@ -2771,6 +2917,8 @@ impl Solution {
 
 ### rotate image java
 
+> submit time: Fri Apr 30 15:38:43 CST 2021
+
 ```java
 class Solution {
     public void rotate(int[][] matrix) {
@@ -2790,6 +2938,8 @@ class Solution {
 ```
 
 ### group anagrams rust
+
+> submit time: Thu Jul 15 17:54:43 CST 2021
 
 ```rust
 use std::iter::FromIterator;
@@ -2813,6 +2963,8 @@ impl Solution {
 ```
 
 ### group anagrams java
+
+> submit time: Sat Oct 03 13:56:59 CST 2015
 
 ```java
 public class Solution {
@@ -2840,6 +2992,8 @@ public class Solution {
 
 ### powx n java
 
+> submit time: Sun Sep 20 17:19:52 CST 2015
+
 ```java
 public class Solution {
     public double myPow(double x, int n) {
@@ -2858,6 +3012,8 @@ public class Solution {
 ```
 
 ### n queens java
+
+> submit time: Thu Dec 10 19:24:09 CST 2015
 
 ```java
 public class Solution {
@@ -2904,6 +3060,8 @@ public class Solution {
 
 ### n queens ii java
 
+> submit time: Fri Jun 25 15:54:59 CST 2021
+
 ```java
 class Solution {
     
@@ -2930,6 +3088,8 @@ class Solution {
 
 ### maximum subarray rust
 
+> submit time: Fri Jul 02 14:07:12 CST 2021
+
 ```rust
 impl Solution {
 
@@ -2954,6 +3114,8 @@ impl Solution {
 
 ### maximum subarray java
 
+> submit time: Mon Jun 07 15:16:52 CST 2021
+
 ```java
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -2970,6 +3132,8 @@ class Solution {
 ```
 
 ### spiral matrix java
+
+> submit time: Fri Jun 25 18:02:09 CST 2021
 
 ```java
 class Solution {
@@ -3011,6 +3175,8 @@ class Solution {
 
 ### jump game rust
 
+> submit time: Tue Jul 06 17:16:34 CST 2021
+
 ```rust
 impl Solution {
 
@@ -3039,6 +3205,8 @@ impl Solution {
 
 ### jump game java
 
+> submit time: Fri Oct 02 13:42:57 CST 2015
+
 ```java
 public class Solution {
     public boolean canJump(int[] nums) {
@@ -3058,6 +3226,8 @@ public class Solution {
 ```
 
 ### merge intervals rust
+
+> submit time: Mon Jul 12 23:20:26 CST 2021
 
 ```rust
 impl Solution {
@@ -3088,6 +3258,8 @@ impl Solution {
 
 ### merge intervals java
 
+> submit time: Sat Jun 05 22:59:34 CST 2021
+
 ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
@@ -3107,6 +3279,8 @@ class Solution {
 ```
 
 ### insert interval java
+
+> submit time: Sun Oct 04 14:28:29 CST 2015
 
 ```java
 /**
@@ -3168,6 +3342,8 @@ public class Solution {
 
 ### length of last word java
 
+> submit time: Mon Oct 05 19:30:50 CST 2015
+
 ```java
 public class Solution {
     public int lengthOfLastWord(String s) {
@@ -3181,6 +3357,8 @@ public class Solution {
 ```
 
 ### spiral matrix ii java
+
+> submit time: Fri Jun 25 18:14:52 CST 2021
 
 ```java
 class Solution {
@@ -3224,6 +3402,8 @@ class Solution {
 
 ### permutation sequence java
 
+> submit time: Thu Dec 10 11:25:27 CST 2015
+
 ```java
 public class Solution {
     public String getPermutation(int n, int k) {
@@ -3248,6 +3428,8 @@ public class Solution {
 ```
 
 ### rotate list java
+
+> submit time: Fri Jun 25 22:56:22 CST 2021
 
 ```java
 /**
@@ -3293,6 +3475,8 @@ class Solution {
 
 ### unique paths rust
 
+> submit time: Thu Jul 08 21:37:23 CST 2021
+
 ```rust
 impl Solution {
     pub fn unique_paths(m: i32, n: i32) -> i32 {
@@ -3313,6 +3497,8 @@ impl Solution {
 
 ### unique paths java
 
+> submit time: Tue Jun 08 21:41:05 CST 2021
+
 ```java
 class Solution {
     public int uniquePaths(int m, int n) {
@@ -3329,6 +3515,8 @@ class Solution {
 ```
 
 ### unique paths ii java
+
+> submit time: Fri Jun 11 19:56:04 CST 2021
 
 ```java
 class Solution {
@@ -3353,6 +3541,8 @@ class Solution {
 ```
 
 ### minimum path sum rust
+
+> submit time: Fri Jul 09 16:10:41 CST 2021
 
 ```rust
 impl Solution {
@@ -3380,6 +3570,8 @@ pub fn min_path_sum(grid: Vec<Vec<i32>>) -> i32 {
 
 ### minimum path sum java
 
+> submit time: Mon Jun 07 16:50:15 CST 2021
+
 ```java
 class Solution {
     public int minPathSum(int[][] grid) {
@@ -3405,6 +3597,8 @@ class Solution {
 
 ### valid number java
 
+> submit time: Thu Jun 17 10:18:16 CST 2021
+
 ```java
 class Solution {
     public boolean isNumber(String s) {
@@ -3414,6 +3608,8 @@ class Solution {
 ```
 
 ### plus one rust
+
+> submit time: Tue Jun 29 17:27:32 CST 2021
 
 ```rust
 impl Solution {
@@ -3444,6 +3640,8 @@ impl Solution {
 
 ### plus one java
 
+> submit time: Thu Jun 24 15:40:50 CST 2021
+
 ```java
 class Solution {
     public int[] plusOne(int[] digits) {
@@ -3470,6 +3668,8 @@ class Solution {
 ```
 
 ### add binary java
+
+> submit time: Thu Jun 24 15:57:18 CST 2021
 
 ```java
 class Solution {
@@ -3502,6 +3702,8 @@ class Solution {
 ```
 
 ### text justification java
+
+> submit time: Mon Apr 19 18:50:22 CST 2021
 
 ```java
 class Solution {
@@ -3566,6 +3768,8 @@ class Solution {
 
 ### sqrtx java
 
+> submit time: Sun Sep 20 17:03:30 CST 2015
+
 ```java
 public class Solution {
     public int mySqrt(int x) {
@@ -3584,6 +3788,8 @@ public class Solution {
 
 ### climbing stairs rust
 
+> submit time: Fri Jul 02 14:14:08 CST 2021
+
 ```rust
 impl Solution {
     pub fn climb_stairs(n: i32) -> i32 {
@@ -3597,6 +3803,8 @@ impl Solution {
 ```
 
 ### climbing stairs java
+
+> submit time: Sat Sep 12 09:46:39 CST 2015
 
 ```java
 public class Solution {
@@ -3616,6 +3824,8 @@ public class Solution {
 ```
 
 ### simplify path java
+
+> submit time: Fri Oct 02 14:33:40 CST 2015
 
 ```java
 public class Solution {
@@ -3643,6 +3853,8 @@ public class Solution {
 ```
 
 ### edit distance rust
+
+> submit time: Mon Jul 12 15:36:52 CST 2021
 
 ```rust
 impl Solution {
@@ -3674,6 +3886,8 @@ impl Solution {
 
 ### edit distance java
 
+> submit time: Mon Jun 07 16:06:59 CST 2021
+
 ```java
 class Solution {
     public int minDistance(String word1, String word2) {
@@ -3694,6 +3908,8 @@ class Solution {
 ```
 
 ### set matrix zeroes java
+
+> submit time: Sun Oct 04 13:42:29 CST 2015
 
 ```java
 public class Solution {
@@ -3726,6 +3942,8 @@ public class Solution {
 
 ### search a 2d matrix java
 
+> submit time: Sat Jun 26 11:29:22 CST 2021
+
 ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -3747,6 +3965,8 @@ class Solution {
 ```
 
 ### sort colors rust
+
+> submit time: Tue Jul 06 17:40:48 CST 2021
 
 ```rust
 impl Solution {
@@ -3771,6 +3991,8 @@ impl Solution {
 
 ### sort colors java
 
+> submit time: Wed Oct 07 16:27:25 CST 2015
+
 ```java
 public class Solution {
     public void sortColors(int[] nums) {
@@ -3792,6 +4014,8 @@ public class Solution {
 ```
 
 ### minimum window substring rust
+
+> submit time: Thu Jul 15 13:57:29 CST 2021
 
 ```rust
 impl Solution {
@@ -3844,6 +4068,8 @@ impl Solution {
 
 ### minimum window substring java
 
+> submit time: Mon Oct 05 23:53:26 CST 2015
+
 ```java
 public class Solution {
     public String minWindow(String s, String t) {
@@ -3889,6 +4115,8 @@ public class Solution {
 
 ### combinations java
 
+> submit time: Fri Oct 02 20:50:12 CST 2015
+
 ```java
 public class Solution {
     public List<List<Integer>> combine(int n, int k) {
@@ -3920,6 +4148,8 @@ public class Solution {
 
 ### subsets rust
 
+> submit time: Thu Jul 08 21:48:23 CST 2021
+
 ```rust
 impl Solution {
 
@@ -3944,6 +4174,8 @@ impl Solution {
 
 ### subsets java
 
+> submit time: Sun Jun 13 13:39:17 CST 2021
+
 ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
@@ -3965,6 +4197,8 @@ class Solution {
 ```
 
 ### word search rust
+
+> submit time: Tue Jul 13 21:13:04 CST 2021
 
 ```rust
 impl Solution {
@@ -4004,6 +4238,8 @@ impl Solution {
 ```
 
 ### word search java
+
+> submit time: Fri Jun 11 17:34:17 CST 2021
 
 ```java
 class Solution {
@@ -4050,6 +4286,8 @@ class Solution {
 
 ### remove duplicates from sorted array ii java
 
+> submit time: Sat Jun 26 14:13:14 CST 2021
+
 ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -4072,6 +4310,8 @@ class Solution {
 ```
 
 ### search in rotated sorted array ii java
+
+> submit time: Sat Jun 26 15:02:15 CST 2021
 
 ```java
 class Solution {
@@ -4117,6 +4357,8 @@ class Solution {
 
 ### remove duplicates from sorted list ii java
 
+> submit time: Sun Jun 27 12:37:06 CST 2021
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -4159,6 +4401,8 @@ class Solution {
 
 ### remove duplicates from sorted list java
 
+> submit time: Sat Sep 12 09:39:42 CST 2015
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -4188,6 +4432,8 @@ public class Solution {
 
 ### largest rectangle in histogram rust
 
+> submit time: Tue Jul 06 23:23:13 CST 2021
+
 ```rust
 impl Solution {
 
@@ -4213,6 +4459,8 @@ impl Solution {
 
 ### largest rectangle in histogram java
 
+> submit time: Thu Apr 29 18:31:34 CST 2021
+
 ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
@@ -4234,6 +4482,8 @@ class Solution {
 ```
 
 ### maximal rectangle rust
+
+> submit time: Tue Jul 06 22:46:26 CST 2021
 
 ```rust
 impl Solution {
@@ -4273,6 +4523,8 @@ impl Solution {
 
 ### maximal rectangle java
 
+> submit time: Thu Jun 17 10:59:24 CST 2021
+
 ```java
 class Solution {
     public int maximalRectangle(char[][] matrix) {
@@ -4306,6 +4558,8 @@ class Solution {
 ```
 
 ### partition list java
+
+> submit time: Mon Oct 05 09:47:41 CST 2015
 
 ```java
 /**
@@ -4353,6 +4607,8 @@ public class Solution {
 
 ### scramble string java
 
+> submit time: Mon Jun 21 16:12:30 CST 2021
+
 ```java
 class Solution {
     public boolean isScramble(String s1, String s2) {
@@ -4385,6 +4641,8 @@ class Solution {
 
 ### merge sorted array java
 
+> submit time: Sun Jun 27 12:24:44 CST 2021
+
 ```java
 class Solution {
     
@@ -4410,6 +4668,8 @@ class Solution {
 ```
 
 ### gray code java
+
+> submit time: Fri Jun 25 23:11:18 CST 2021
 
 ```java
 class Solution {
@@ -4437,6 +4697,8 @@ class Solution {
 ```
 
 ### subsets ii java
+
+> submit time: Mon Jun 28 15:30:07 CST 2021
 
 ```java
 class Solution {
@@ -4468,6 +4730,8 @@ class Solution {
 ```
 
 ### decode ways java
+
+> submit time: Wed Apr 21 14:04:56 CST 2021
 
 ```java
 class Solution {
@@ -4502,6 +4766,8 @@ class Solution {
 ```
 
 ### reverse linked list ii java
+
+> submit time: Mon Jun 28 17:17:56 CST 2021
 
 ```java
 /**
@@ -4543,6 +4809,8 @@ class Solution {
 
 ### restore ip addresses java
 
+> submit time: Sat Jun 26 11:13:39 CST 2021
+
 ```java
 class Solution {
 
@@ -4579,6 +4847,8 @@ class Solution {
 ```
 
 ### binary tree inorder traversal rust
+
+> submit time: Fri Jul 02 14:28:09 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -4622,6 +4892,8 @@ impl Solution {
 
 ### binary tree inorder traversal java
 
+> submit time: Sun Sep 13 11:10:48 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -4646,6 +4918,8 @@ public class Solution {
 ```
 
 ### unique binary search trees ii java
+
+> submit time: Sat Jun 26 13:52:27 CST 2021
 
 ```java
 /**
@@ -4696,6 +4970,8 @@ class Solution {
 
 ### unique binary search trees rust
 
+> submit time: Sun Jul 11 08:44:50 CST 2021
+
 ```rust
 impl Solution {
     
@@ -4718,6 +4994,8 @@ impl Solution {
 
 ### unique binary search trees java
 
+> submit time: Thu Jun 17 14:23:42 CST 2021
+
 ```java
 class Solution {
     public int numTrees(int n) {
@@ -4734,6 +5012,8 @@ class Solution {
 ```
 
 ### interleaving string java
+
+> submit time: Sat Jun 26 13:23:25 CST 2021
 
 ```java
 class Solution {
@@ -4762,6 +5042,8 @@ class Solution {
 ```
 
 ### validate binary search tree rust
+
+> submit time: Tue Jul 13 21:38:30 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -4817,6 +5099,8 @@ impl Solution {
 
 ### validate binary search tree java
 
+> submit time: Sat Oct 03 11:39:35 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -4843,6 +5127,8 @@ public class Solution {
 ```
 
 ### recover binary search tree java
+
+> submit time: Mon Jun 28 17:58:47 CST 2021
 
 ```java
 /**
@@ -4899,6 +5185,8 @@ class Solution {
 
 ### same tree java
 
+> submit time: Tue Aug 11 20:37:18 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -4923,6 +5211,8 @@ public class Solution {
 ```
 
 ### symmetric tree rust
+
+> submit time: Fri Jul 02 14:49:06 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -4971,6 +5261,8 @@ impl Solution {
 ```
 
 ### symmetric tree java
+
+> submit time: Sat Oct 03 17:23:36 CST 2015
 
 ```java
 /**
@@ -5021,6 +5313,8 @@ public class Solution {
 
 ### binary tree level order traversal rust
 
+> submit time: Wed Jul 14 10:08:01 CST 2021
+
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -5064,6 +5358,8 @@ pub fn level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
 
 ### binary tree level order traversal java
 
+> submit time: Fri Oct 02 19:46:56 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5100,6 +5396,8 @@ public class Solution {
 ```
 
 ### binary tree zigzag level order traversal java
+
+> submit time: Sat Oct 03 14:43:46 CST 2015
 
 ```java
 /**
@@ -5140,6 +5438,8 @@ public class Solution {
 ```
 
 ### maximum depth of binary tree rust
+
+> submit time: Fri Jul 02 15:36:44 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -5185,6 +5485,8 @@ impl Solution {
 
 ### maximum depth of binary tree java
 
+> submit time: Tue Aug 11 20:11:00 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5207,6 +5509,8 @@ public class Solution {
 ```
 
 ### construct binary tree from preorder and inorder traversal rust
+
+> submit time: Wed Jul 14 10:32:26 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -5252,6 +5556,8 @@ pub fn build_tree(preorder: Vec<i32>, inorder: Vec<i32>) -> Option<Rc<RefCell<Tr
 
 ### construct binary tree from preorder and inorder traversal java
 
+> submit time: Sat Oct 03 14:28:47 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5286,6 +5592,8 @@ public class Solution {
 
 ### construct binary tree from inorder and postorder traversal java
 
+> submit time: Sat Oct 03 14:22:14 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5319,6 +5627,8 @@ public class Solution {
 ```
 
 ### binary tree level order traversal ii java
+
+> submit time: Tue Oct 06 10:01:37 CST 2015
 
 ```java
 /**
@@ -5357,6 +5667,8 @@ public class Solution {
 
 ### convert sorted array to binary search tree java
 
+> submit time: Mon Oct 05 16:55:26 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5385,6 +5697,8 @@ public class Solution {
 ```
 
 ### convert sorted list to binary search tree java
+
+> submit time: Mon Oct 05 16:47:25 CST 2015
 
 ```java
 /**
@@ -5443,6 +5757,8 @@ public class Solution {
 
 ### minimum depth of binary tree java
 
+> submit time: Sat Oct 03 16:55:28 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5476,6 +5792,8 @@ public class Solution {
 
 ### path sum java
 
+> submit time: Tue Oct 06 09:57:57 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5506,6 +5824,8 @@ public class Solution {
 ```
 
 ### path sum ii java
+
+> submit time: Tue Sep 08 20:09:08 CST 2015
 
 ```java
 /**
@@ -5548,6 +5868,8 @@ public class Solution {
 ```
 
 ### flatten binary tree to linked list rust
+
+> submit time: Fri Jul 09 22:27:37 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -5598,6 +5920,8 @@ impl Solution {
 
 ### flatten binary tree to linked list java
 
+> submit time: Sun Sep 13 22:45:08 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5628,6 +5952,8 @@ public class Solution {
 ```
 
 ### distinct subsequences java
+
+> submit time: Tue Jun 22 16:33:58 CST 2021
 
 ```java
 class Solution {
@@ -5672,6 +5998,8 @@ class Solution {
 ```
 
 ### populating next right pointers in each node java
+
+> submit time: Sun Sep 13 11:45:14 CST 2015
 
 ```java
 /**
@@ -5727,6 +6055,8 @@ public class Solution {
 
 ### populating next right pointers in each node ii java
 
+> submit time: Sun Oct 04 14:45:12 CST 2015
+
 ```java
 /**
  * Definition for binary tree with next pointer.
@@ -5764,6 +6094,8 @@ public class Solution {
 
 ### pascals triangle java
 
+> submit time: Wed Oct 07 13:52:51 CST 2015
+
 ```java
 public class Solution {
     public List<List<Integer>> generate(int numRows) {
@@ -5790,6 +6122,8 @@ public class Solution {
 
 ### pascals triangle ii java
 
+> submit time: Wed Oct 07 13:54:51 CST 2015
+
 ```java
 public class Solution {
     public List<Integer> getRow(int rowIndex) {
@@ -5814,6 +6148,8 @@ public class Solution {
 
 ### best time to buy and sell stock rust
 
+> submit time: Fri Jul 02 17:30:41 CST 2021
+
 ```rust
 impl Solution {
 
@@ -5835,6 +6171,8 @@ impl Solution {
 
 ### best time to buy and sell stock java
 
+> submit time: Wed Jun 29 22:49:32 CST 2016
+
 ```java
 public class Solution {
     public int maxProfit(int[] prices) {
@@ -5853,6 +6191,8 @@ public class Solution {
 ```
 
 ### binary tree maximum path sum rust
+
+> submit time: Tue Jul 06 23:46:39 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -5898,6 +6238,8 @@ impl Solution {
 
 ### binary tree maximum path sum java
 
+> submit time: Sat Oct 03 15:49:48 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -5930,6 +6272,8 @@ public class Solution {
 ```
 
 ### word ladder ii java
+
+> submit time: Thu Apr 22 16:41:02 CST 2021
 
 ```java
 class Solution {
@@ -5997,6 +6341,8 @@ class Solution {
 
 ### word ladder java
 
+> submit time: Mon Jun 14 10:05:25 CST 2021
+
 ```java
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -6043,6 +6389,8 @@ class Solution {
 
 ### longest consecutive sequence rust
 
+> submit time: Wed Jul 07 22:41:50 CST 2021
+
 ```rust
 impl Solution {
     pub fn longest_consecutive(nums: Vec<i32>) -> i32 {
@@ -6069,6 +6417,8 @@ impl Solution {
 
 ### longest consecutive sequence java
 
+> submit time: Mon Oct 05 19:23:47 CST 2015
+
 ```java
 public class Solution {
     public int longestConsecutive(int[] nums) {
@@ -6094,6 +6444,8 @@ public class Solution {
 ```
 
 ### sum root to leaf numbers java
+
+> submit time: Sat Oct 03 16:34:31 CST 2015
 
 ```java
 /**
@@ -6140,6 +6492,8 @@ public class Solution {
 
 ### candy java
 
+> submit time: Thu Apr 22 22:00:51 CST 2021
+
 ```java
 class Solution {
     public int candy(int[] ratings) {
@@ -6173,6 +6527,8 @@ class Solution {
 
 ### single number rust
 
+> submit time: Fri Jul 02 17:36:38 CST 2021
+
 ```rust
 impl Solution {
     pub fn single_number(nums: Vec<i32>) -> i32 {
@@ -6182,6 +6538,8 @@ impl Solution {
 ```
 
 ### single number c
+
+> submit time: Fri Aug 07 18:58:02 CST 2015
 
 ```c
 int singleNumber(int* nums, int numsSize) {
@@ -6194,6 +6552,8 @@ int singleNumber(int* nums, int numsSize) {
 ```
 
 ### single number ii java
+
+> submit time: Fri Apr 30 09:05:07 CST 2021
 
 ```java
 public class Solution {
@@ -6210,6 +6570,8 @@ public class Solution {
 ```
 
 ### copy list with random pointer java
+
+> submit time: Mon Oct 05 15:20:03 CST 2015
 
 ```java
 /**
@@ -6264,6 +6626,8 @@ public class Solution {
 
 ### word break rust
 
+> submit time: Fri Jul 09 11:50:28 CST 2021
+
 ```rust
 impl Solution {
 
@@ -6287,6 +6651,8 @@ impl Solution {
 
 ### word break java
 
+> submit time: Fri Jun 11 18:00:04 CST 2021
+
 ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -6307,6 +6673,8 @@ class Solution {
 ```
 
 ### linked list cycle java
+
+> submit time: Sat Sep 12 15:44:30 CST 2015
 
 ```java
 /**
@@ -6340,6 +6708,8 @@ public class Solution {
 
 ### linked list cycle ii java
 
+> submit time: Thu Jun 17 11:49:08 CST 2021
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -6369,6 +6739,8 @@ public class Solution {
 
 ### binary tree preorder traversal java
 
+> submit time: Sun Sep 13 11:05:19 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -6392,6 +6764,8 @@ public class Solution {
 ```
 
 ### binary tree postorder traversal java
+
+> submit time: Wed Aug 12 19:20:57 CST 2015
 
 ```java
 /**
@@ -6420,6 +6794,8 @@ public class Solution {
 ```
 
 ### lru cache rust
+
+> submit time: Mon Jul 12 21:43:23 CST 2021
 
 ```rust
 use std::rc::Rc;
@@ -6534,6 +6910,8 @@ impl LRUCache {
 
 ### lru cache java
 
+> submit time: Sat Jun 05 22:41:59 CST 2021
+
 ```java
 class LRUCache extends LinkedHashMap<Integer, Integer>{
     private int capacity;
@@ -6555,6 +6933,8 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
 ```
 
 ### insertion sort list java
+
+> submit time: Wed Oct 07 15:59:32 CST 2015
 
 ```java
 /**
@@ -6609,6 +6989,8 @@ public class Solution {
 
 ### sort list rust
 
+> submit time: Thu Jul 08 09:29:26 CST 2021
+
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -6651,6 +7033,8 @@ impl Solution {
 
 ### sort list java
 
+> submit time: Sun Jun 13 19:07:27 CST 2021
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -6683,6 +7067,8 @@ class Solution {
 ```
 
 ### max points on a line java
+
+> submit time: Thu Jun 24 09:47:04 CST 2021
 
 ```java
 class Solution {
@@ -6731,6 +7117,8 @@ class Solution {
 
 ### reverse words in a string java
 
+> submit time: Mon Oct 05 10:17:27 CST 2015
+
 ```java
 public class Solution {
     public String reverseWords(String s) {
@@ -6745,6 +7133,8 @@ public class Solution {
 ```
 
 ### maximum product subarray rust
+
+> submit time: Sun Jul 11 08:57:39 CST 2021
 
 ```rust
 impl Solution {
@@ -6766,6 +7156,8 @@ impl Solution {
 ```
 
 ### maximum product subarray java
+
+> submit time: Fri Apr 30 18:07:04 CST 2021
 
 ```java
 class Solution {
@@ -6803,6 +7195,8 @@ class Solution {
 ```
 
 ### min stack rust
+
+> submit time: Fri Jul 02 18:11:11 CST 2021
 
 ```rust
 
@@ -6845,6 +7239,8 @@ impl MinStack {
 ```
 
 ### min stack java
+
+> submit time: Fri Jun 11 14:55:46 CST 2021
 
 ```java
 class MinStack {
@@ -6889,6 +7285,8 @@ class MinStack {
 
 ### intersection of two linked lists java
 
+> submit time: Fri Jun 04 10:19:44 CST 2021
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -6930,6 +7328,8 @@ public class Solution {
 ```
 
 ### maximum gap java
+
+> submit time: Mon Jun 28 14:14:27 CST 2021
 
 ```java
 class Solution {
@@ -6975,6 +7375,8 @@ class Solution {
 
 ### compare version numbers java
 
+> submit time: Sat Sep 12 15:21:37 CST 2015
+
 ```java
 public class Solution {
     
@@ -7009,6 +7411,8 @@ public class Solution {
 ```
 
 ### fraction to recurring decimal java
+
+> submit time: Sat Sep 12 14:44:53 CST 2015
 
 ```java
 public class Solution {
@@ -7045,6 +7449,8 @@ public class Solution {
 
 ### excel sheet column title rust
 
+> submit time: Tue Jun 29 10:34:58 CST 2021
+
 ```rust
 impl Solution {
 
@@ -7066,6 +7472,8 @@ impl Solution {
 
 ### excel sheet column title java
 
+> submit time: Fri Sep 11 20:42:27 CST 2015
+
 ```java
 public class Solution {
     public String convertToTitle(int n) {
@@ -7080,6 +7488,8 @@ public class Solution {
 ```
 
 ### majority element rust
+
+> submit time: Fri Jul 02 18:20:34 CST 2021
 
 ```rust
 impl Solution {
@@ -7099,6 +7509,8 @@ impl Solution {
 ```
 
 ### majority element java
+
+> submit time: Fri Sep 11 21:07:45 CST 2015
 
 ```java
 public class Solution {
@@ -7124,6 +7536,8 @@ public class Solution {
 
 ### excel sheet column number java
 
+> submit time: Fri Sep 11 20:33:10 CST 2015
+
 ```java
 public class Solution {
     public int titleToNumber(String s) {
@@ -7137,6 +7551,8 @@ public class Solution {
 ```
 
 ### factorial trailing zeroes java
+
+> submit time: Wed Sep 09 23:34:58 CST 2015
 
 ```java
 public class Solution {
@@ -7154,12 +7570,16 @@ public class Solution {
 
 ### combine two tables mysql
 
+> submit time: Tue Jul 10 18:50:58 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select FirstName, LastName, City, State from Person left join Address on Person.PersonId = Address.PersonId
 ```
 
 ### second highest salary mysql
+
+> submit time: Thu Aug 09 13:57:49 CST 2018
 
 ```mysql
 # Write your MySQL query statement below
@@ -7174,6 +7594,8 @@ limit 1
 
 ### rank scores mysql
 
+> submit time: Thu Aug 09 15:16:13 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select b.Score, (select count(1) from (select distinct Score from scores) a where a.Score >= b.Score) as Rank
@@ -7182,6 +7604,8 @@ order by Score desc
 ```
 
 ### largest number java
+
+> submit time: Thu Sep 17 23:43:54 CST 2015
 
 ```java
 public class Solution {
@@ -7218,6 +7642,8 @@ public class Solution {
 
 ### consecutive numbers mysql
 
+> submit time: Mon Aug 27 19:00:45 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select distinct a.Num as ConsecutiveNums from Logs a join Logs b on a.Id = b.Id - 1 join Logs c on b.Id = c.Id - 1
@@ -7225,6 +7651,8 @@ where a.Num = b.Num and b.Num = c.Num;
 ```
 
 ### employees earning more than their managers mysql
+
+> submit time: Mon Aug 27 19:36:59 CST 2018
 
 ```mysql
 # Write your MySQL query statement below
@@ -7234,6 +7662,8 @@ where a.Salary > b.Salary
 
 ### duplicate emails mysql
 
+> submit time: Thu Aug 09 15:00:16 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select Email from person group by Email having count(1) > 1
@@ -7241,12 +7671,16 @@ select Email from person group by Email having count(1) > 1
 
 ### customers who never order mysql
 
+> submit time: Sun Sep 13 10:42:49 CST 2015
+
 ```mysql
 # Write your MySQL query statement below
 select Name as Customers from Customers where Customers.Id not in (select CustomerId from Orders);
 ```
 
 ### reverse bits java
+
+> submit time: Wed Sep 09 23:22:41 CST 2015
 
 ```java
 public class Solution {
@@ -7284,6 +7718,8 @@ public class Solution {
 
 ### number of 1 bits cpp
 
+> submit time: Wed Sep 09 22:55:27 CST 2015
+
 ```cpp
 class Solution {
 public:
@@ -7299,6 +7735,8 @@ public:
 ```
 
 ### number of 1 bits java
+
+> submit time: Wed Sep 09 22:54:33 CST 2015
 
 ```java
 public class Solution {
@@ -7316,6 +7754,8 @@ public class Solution {
 
 ### number of 1 bits c
 
+> submit time: Wed Sep 09 22:56:18 CST 2015
+
 ```c
 int hammingWeight(uint32_t n) {
         uint32_t t1 = ((n >> 1) & 0x55555555) + (n & 0x55555555);
@@ -7329,6 +7769,8 @@ int hammingWeight(uint32_t n) {
 
 ### rising temperature mysql
 
+> submit time: Mon Aug 27 19:32:02 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select b.Id
@@ -7337,6 +7779,8 @@ where b.Temperature > a.Temperature;
 ```
 
 ### house robber rust
+
+> submit time: Fri Jul 09 10:22:48 CST 2021
 
 ```rust
 impl Solution {
@@ -7354,6 +7798,8 @@ impl Solution {
 
 ### house robber java
 
+> submit time: Wed Jun 09 21:14:15 CST 2021
+
 ```java
 class Solution {
     public int rob(int[] nums) {
@@ -7368,6 +7814,8 @@ class Solution {
 ```
 
 ### number of islands rust
+
+> submit time: Thu Jul 08 18:30:24 CST 2021
 
 ```rust
 impl Solution {
@@ -7414,6 +7862,8 @@ impl Solution {
 
 ### number of islands java
 
+> submit time: Sun Sep 20 19:41:14 CST 2015
+
 ```java
 public class Solution {
     public int numIslands(char[][] grid) {
@@ -7443,6 +7893,8 @@ public class Solution {
 
 ### happy number java
 
+> submit time: Sat Sep 12 16:21:32 CST 2015
+
 ```java
 public class Solution {
     public boolean isHappy(int n) {
@@ -7465,6 +7917,8 @@ public class Solution {
 ```
 
 ### remove linked list elements rust
+
+> submit time: Wed Jun 30 23:16:44 CST 2021
 
 ```rust
 // Definition for singly-linked list.
@@ -7509,6 +7963,8 @@ impl Solution {
 
 ### remove linked list elements java
 
+> submit time: Sat Jun 05 10:07:24 CST 2021
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -7543,6 +7999,8 @@ public class Solution {
 
 ### count primes java
 
+> submit time: Thu Sep 17 19:49:36 CST 2015
+
 ```java
 public class Solution {
     public int countPrimes(int n) {
@@ -7564,6 +8022,8 @@ public class Solution {
 ```
 
 ### reverse linked list rust
+
+> submit time: Tue Jun 29 11:53:00 CST 2021
 
 ```rust
 // Definition for singly-linked list.
@@ -7602,6 +8062,8 @@ impl Solution {
 
 ### reverse linked list java
 
+> submit time: Fri Jun 11 18:28:43 CST 2021
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -7628,6 +8090,8 @@ class Solution {
 ```
 
 ### course schedule rust
+
+> submit time: Fri Jul 09 15:55:47 CST 2021
 
 ```rust
 impl Solution {
@@ -7665,6 +8129,8 @@ pub fn can_finish(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> bool {
 ```
 
 ### course schedule java
+
+> submit time: Fri Jun 11 22:19:07 CST 2021
 
 ```java
 class Solution {
@@ -7711,6 +8177,8 @@ class Solution {
 ```
 
 ### implement trie prefix tree rust
+
+> submit time: Mon Jul 12 17:07:41 CST 2021
 
 ```rust
 struct Trie {
@@ -7783,6 +8251,8 @@ impl Trie {
 
 ### implement trie prefix tree java
 
+> submit time: Wed Jun 16 15:36:21 CST 2021
+
 ```java
 class Trie {
 
@@ -7841,6 +8311,8 @@ class Trie {
 
 ### minimum size subarray sum java
 
+> submit time: Fri Apr 30 16:19:42 CST 2021
+
 ```java
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
@@ -7862,6 +8334,8 @@ class Solution {
 ```
 
 ### house robber ii java
+
+> submit time: Mon Jun 21 17:24:51 CST 2021
 
 ```java
 class Solution {
@@ -7887,6 +8361,8 @@ class Solution {
 ```
 
 ### kth largest element in an array rust
+
+> submit time: Thu Jul 15 14:46:59 CST 2021
 
 ```rust
 use std::time::{SystemTime, UNIX_EPOCH};
@@ -7934,6 +8410,8 @@ impl Solution {
 
 ### kth largest element in an array java
 
+> submit time: Wed Jun 16 17:18:58 CST 2021
+
 ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
@@ -7978,6 +8456,8 @@ class Solution {
 
 ### contains duplicate java
 
+> submit time: Tue Aug 11 21:06:47 CST 2015
+
 ```java
 public class Solution {
     public boolean containsDuplicate(int[] nums) {
@@ -7996,6 +8476,8 @@ public class Solution {
 ```
 
 ### the skyline problem java
+
+> submit time: Tue Jul 13 10:10:20 CST 2021
 
 ```java
 class Solution {
@@ -8027,6 +8509,8 @@ class Solution {
 
 ### contains duplicate ii java
 
+> submit time: Mon Oct 05 19:41:22 CST 2015
+
 ```java
 public class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
@@ -8044,6 +8528,8 @@ public class Solution {
 ```
 
 ### maximal square rust
+
+> submit time: Fri Jul 09 14:12:07 CST 2021
 
 ```rust
 impl Solution {
@@ -8070,6 +8556,8 @@ pub fn maximal_square(matrix: Vec<Vec<char>>) -> i32 {
 
 ### maximal square java
 
+> submit time: Tue Jun 08 20:21:58 CST 2021
+
 ```java
 class Solution {
     public int maximalSquare(char[][] matrix) {
@@ -8089,6 +8577,8 @@ class Solution {
 ```
 
 ### implement stack using queues java
+
+> submit time: Mon Oct 05 15:49:27 CST 2015
 
 ```java
 class MyStack {
@@ -8142,6 +8632,8 @@ class MyStack {
 
 ### invert binary tree rust
 
+> submit time: Sat Jul 03 08:56:05 CST 2021
+
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -8181,6 +8673,8 @@ impl Solution {
 
 ### invert binary tree java
 
+> submit time: Fri Sep 11 19:33:57 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -8203,6 +8697,8 @@ public class Solution {
 ```
 
 ### summary ranges java
+
+> submit time: Mon Oct 05 18:41:26 CST 2015
 
 ```java
 public class Solution {
@@ -8231,6 +8727,8 @@ public class Solution {
 
 ### majority element ii java
 
+> submit time: Fri Sep 11 21:13:04 CST 2015
+
 ```java
 public class Solution {
     public List<Integer> majorityElement(int[] nums) {
@@ -8253,6 +8751,8 @@ public class Solution {
 ```
 
 ### kth smallest element in a bst java
+
+> submit time: Mon Oct 05 19:05:30 CST 2015
 
 ```java
 /**
@@ -8286,6 +8786,8 @@ public class Solution {
 
 ### power of two c
 
+> submit time: Wed Sep 09 23:28:07 CST 2015
+
 ```c
 bool isPowerOfTwo(int n) {
     
@@ -8296,6 +8798,8 @@ bool isPowerOfTwo(int n) {
 
 ### power of two java
 
+> submit time: Sun May 30 08:49:47 CST 2021
+
 ```java
 class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -8305,6 +8809,8 @@ class Solution {
 ```
 
 ### implement queue using stacks java
+
+> submit time: Sat Sep 12 16:00:01 CST 2015
 
 ```java
 class MyQueue {
@@ -8353,6 +8859,8 @@ class MyQueue {
 
 ### palindrome linked list rust
 
+> submit time: Sat Jul 03 09:05:44 CST 2021
+
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -8390,6 +8898,8 @@ impl Solution {
 ```
 
 ### palindrome linked list java
+
+> submit time: Tue Sep 08 21:36:25 CST 2015
 
 ```java
 /**
@@ -8444,6 +8954,8 @@ public class Solution {
 
 ### lowest common ancestor of a binary search tree java
 
+> submit time: Fri Sep 11 20:26:33 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -8470,6 +8982,8 @@ public class Solution {
 ```
 
 ### lowest common ancestor of a binary tree rust
+
+> submit time: Tue Jul 13 22:13:42 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -8529,6 +9043,8 @@ impl Solution {
 
 ### lowest common ancestor of a binary tree java
 
+> submit time: Mon Oct 05 17:23:51 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -8553,6 +9069,8 @@ public class Solution {
 
 ### delete node in a linked list java
 
+> submit time: Tue Aug 11 20:24:04 CST 2015
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -8571,6 +9089,8 @@ public class Solution {
 ```
 
 ### product of array except self rust
+
+> submit time: Thu Jul 08 21:05:59 CST 2021
 
 ```rust
 impl Solution {
@@ -8594,6 +9114,8 @@ impl Solution {
 ```
 
 ### product of array except self java
+
+> submit time: Sat Sep 12 23:23:57 CST 2015
 
 ```java
 public class Solution {
@@ -8640,6 +9162,8 @@ public class Solution {
 
 ### sliding window maximum rust
 
+> submit time: Wed Jul 14 11:38:55 CST 2021
+
 ```rust
 impl Solution {
 
@@ -8671,6 +9195,8 @@ pub fn max_sliding_window(nums: Vec<i32>, k: i32) -> Vec<i32> {
 
 ### sliding window maximum java
 
+> submit time: Fri Jun 11 15:14:53 CST 2021
+
 ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
@@ -8695,6 +9221,8 @@ class Solution {
 
 ### search a 2d matrix ii rust
 
+> submit time: Fri Jul 09 16:02:35 CST 2021
+
 ```rust
 impl Solution {
 
@@ -8716,6 +9244,8 @@ pub fn search_matrix(matrix: Vec<Vec<i32>>, target: i32) -> bool {
 
 ### search a 2d matrix ii java
 
+> submit time: Thu Jun 17 16:35:19 CST 2021
+
 ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -8736,6 +9266,8 @@ class Solution {
 ```
 
 ### different ways to add parentheses java
+
+> submit time: Thu Sep 17 20:53:53 CST 2015
 
 ```java
 public class Solution {
@@ -8785,6 +9317,8 @@ public class Solution {
 
 ### valid anagram java
 
+> submit time: Tue Sep 08 20:38:55 CST 2015
+
 ```java
 import java.util.*;
 public class Solution {
@@ -8822,6 +9356,8 @@ public class Solution {
 
 ### binary tree paths java
 
+> submit time: Tue Sep 08 19:49:57 CST 2015
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -8854,6 +9390,8 @@ public class Solution {
 
 ### add digits java
 
+> submit time: Sun Aug 16 15:09:51 CST 2015
+
 ```java
 public class Solution {
     public int addDigits(int num) {
@@ -8866,6 +9404,8 @@ public class Solution {
 ```
 
 ### single number iii java
+
+> submit time: Fri Oct 02 22:38:05 CST 2015
 
 ```java
 public class Solution {
@@ -8885,6 +9425,8 @@ public class Solution {
 
 ### ugly number java
 
+> submit time: Tue Sep 08 19:27:19 CST 2015
+
 ```java
 public class Solution {
     public boolean isUgly(int num) {
@@ -8899,6 +9441,8 @@ public class Solution {
 ```
 
 ### ugly number ii java
+
+> submit time: Wed Sep 09 20:42:56 CST 2015
 
 ```java
 public class Solution {
@@ -8930,6 +9474,8 @@ public class Solution {
 
 ### missing number java
 
+> submit time: Sat Sep 12 21:00:51 CST 2015
+
 ```java
 public class Solution {
     public int missingNumber(int[] nums) {
@@ -8944,6 +9490,8 @@ public class Solution {
 ```
 
 ### integer to english words java
+
+> submit time: Wed Sep 09 20:21:31 CST 2015
 
 ```java
 public class Solution {
@@ -9066,6 +9614,8 @@ public class Solution {
 
 ### h index rust
 
+> submit time: Sun Jul 11 08:35:10 CST 2021
+
 ```rust
 impl Solution {
 
@@ -9090,6 +9640,8 @@ impl Solution {
 ```
 
 ### h index java
+
+> submit time: Tue Sep 08 23:02:52 CST 2015
 
 ```java
 public class Solution {
@@ -9118,6 +9670,8 @@ public class Solution {
 
 ### h index ii rust
 
+> submit time: Mon Jul 12 10:43:22 CST 2021
+
 ```rust
 impl Solution {
 
@@ -9139,6 +9693,8 @@ impl Solution {
 ```
 
 ### h index ii java
+
+> submit time: Tue Sep 08 23:03:06 CST 2015
 
 ```java
 public class Solution {
@@ -9167,6 +9723,8 @@ public class Solution {
 
 ### first bad version java
 
+> submit time: Sun Jun 13 11:45:06 CST 2021
+
 ```java
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
@@ -9192,6 +9750,8 @@ public class Solution extends VersionControl {
 
 ### perfect squares rust
 
+> submit time: Thu Jul 08 21:58:38 CST 2021
+
 ```rust
 impl Solution {
 
@@ -9214,6 +9774,8 @@ impl Solution {
 
 ### perfect squares java
 
+> submit time: Fri Jun 11 09:11:57 CST 2021
+
 ```java
 class Solution {
     public int numSquares(int n) {
@@ -9235,6 +9797,8 @@ class Solution {
 
 ### move zeroes rust
 
+> submit time: Sat Jul 03 09:15:50 CST 2021
+
 ```rust
 impl Solution {
 
@@ -9252,6 +9816,8 @@ impl Solution {
 ```
 
 ### move zeroes java
+
+> submit time: Sat Sep 19 13:47:05 CST 2015
 
 ```java
 public class Solution {
@@ -9277,6 +9843,8 @@ public class Solution {
 
 ### find the duplicate number rust
 
+> submit time: Fri Jul 09 10:59:04 CST 2021
+
 ```rust
 impl Solution {
     pub fn find_duplicate(nums: Vec<i32>) -> i32 {
@@ -9300,6 +9868,8 @@ impl Solution {
 ```
 
 ### find the duplicate number java
+
+> submit time: Wed Jun 29 22:32:41 CST 2016
 
 ```java
 public class Solution {
@@ -9327,6 +9897,8 @@ public class Solution {
 ```
 
 ### game of life java
+
+> submit time: Sun Oct 04 13:35:03 CST 2015
 
 ```java
 public class Solution {    
@@ -9358,6 +9930,8 @@ public class Solution {
 
 ### nim game java
 
+> submit time: Wed May 11 21:13:35 CST 2016
+
 ```java
 public class Solution {
     public boolean canWinNim(int n) {
@@ -9368,6 +9942,8 @@ public class Solution {
 ```
 
 ### serialize and deserialize binary tree rust
+
+> submit time: Tue Jul 13 17:23:08 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -9448,6 +10024,8 @@ impl Codec{
 
 ### serialize and deserialize binary tree java
 
+> submit time: Sun Jun 13 18:59:40 CST 2021
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -9498,6 +10076,8 @@ public class Codec {
 
 ### longest increasing subsequence rust
 
+> submit time: Sun Jul 11 10:13:43 CST 2021
+
 ```rust
 impl Solution {
 
@@ -9523,6 +10103,8 @@ impl Solution {
 
 ### longest increasing subsequence java
 
+> submit time: Tue Jun 08 21:53:03 CST 2021
+
 ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
@@ -9543,6 +10125,8 @@ class Solution {
 ```
 
 ### remove invalid parentheses rust
+
+> submit time: Thu Jul 15 21:21:07 CST 2021
 
 ```rust
 impl Solution {
@@ -9610,6 +10194,8 @@ impl Solution {
 
 ### remove invalid parentheses java
 
+> submit time: Thu Jun 17 16:23:26 CST 2021
+
 ```java
 class Solution {
     public List<String> removeInvalidParentheses(String s) {
@@ -9666,6 +10252,8 @@ class Solution {
 
 ### range sum query immutable java
 
+> submit time: Wed Dec 09 21:54:15 CST 2015
+
 ```java
 public class NumArray {
     private int[] sum;
@@ -9691,6 +10279,8 @@ public class NumArray {
 
 ### best time to buy and sell stock with cooldown rust
 
+> submit time: Sun Jul 11 10:03:07 CST 2021
+
 ```rust
 impl Solution {
 
@@ -9713,6 +10303,8 @@ impl Solution {
 
 ### best time to buy and sell stock with cooldown java
 
+> submit time: Wed Jun 16 16:11:11 CST 2021
+
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
@@ -9729,6 +10321,8 @@ class Solution {
 ```
 
 ### burst balloons rust
+
+> submit time: Mon Jul 12 14:29:21 CST 2021
 
 ```rust
 impl Solution {
@@ -9765,6 +10359,8 @@ impl Solution {
 
 ### burst balloons java
 
+> submit time: Tue Jun 15 10:29:06 CST 2021
+
 ```java
 class Solution {
     public int maxCoins(int[] nums) {
@@ -9787,6 +10383,8 @@ class Solution {
 ```
 
 ### remove duplicate letters rust
+
+> submit time: Wed Jul 07 13:52:07 CST 2021
 
 ```rust
 impl Solution {
@@ -9830,6 +10428,8 @@ impl Solution {
 
 ### coin change rust
 
+> submit time: Thu Jul 08 20:48:32 CST 2021
+
 ```rust
 impl Solution {
     pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
@@ -9853,6 +10453,8 @@ impl Solution {
 
 ### coin change java
 
+> submit time: Wed Jun 09 21:25:55 CST 2021
+
 ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
@@ -9872,6 +10474,8 @@ class Solution {
 ```
 
 ### house robber iii rust
+
+> submit time: Sun Jul 11 09:47:28 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -9917,6 +10521,8 @@ impl Solution {
 
 ### house robber iii java
 
+> submit time: Tue Jun 08 21:33:31 CST 2021
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -9956,6 +10562,8 @@ class Solution {
 
 ### counting bits rust
 
+> submit time: Sat Jul 03 09:27:43 CST 2021
+
 ```rust
 impl Solution {
     pub fn count_bits(n: i32) -> Vec<i32> {
@@ -9969,6 +10577,8 @@ impl Solution {
 ```
 
 ### counting bits java
+
+> submit time: Tue Jun 08 20:55:52 CST 2021
 
 ```java
 class Solution {
@@ -9984,6 +10594,8 @@ class Solution {
 
 ### power of four java
 
+> submit time: Mon May 31 09:11:03 CST 2021
+
 ```java
 class Solution {
     public boolean isPowerOfFour(int n) {
@@ -9993,6 +10605,8 @@ class Solution {
 ```
 
 ### reverse string java
+
+> submit time: Wed May 11 21:03:46 CST 2016
 
 ```java
 public class Solution {
@@ -10008,6 +10622,8 @@ public class Solution {
 
 ### top k frequent elements rust
 
+> submit time: Wed Jul 14 11:34:46 CST 2021
+
 ```rust
 impl Solution {
     pub fn top_k_frequent(nums: Vec<i32>, k: i32) -> Vec<i32> {
@@ -10021,6 +10637,8 @@ impl Solution {
 ```
 
 ### top k frequent elements java
+
+> submit time: Wed May 11 21:41:21 CST 2016
 
 ```java
 public class Solution {
@@ -10040,6 +10658,8 @@ public class Solution {
 
 ### intersection of two arrays java
 
+> submit time: Fri May 20 11:32:57 CST 2016
+
 ```java
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -10052,6 +10672,8 @@ public class Solution {
 ```
 
 ### max sum of rectangle no larger than k java
+
+> submit time: Thu Apr 22 15:51:34 CST 2021
 
 ```java
 class Solution {
@@ -10094,6 +10716,8 @@ class Solution {
 
 ### water and jug problem java
 
+> submit time: Thu Jul 07 23:08:21 CST 2016
+
 ```java
 public class Solution {
     
@@ -10118,6 +10742,8 @@ public class Solution {
 
 ### valid perfect square java
 
+> submit time: Wed Jun 29 16:02:38 CST 2016
+
 ```java
 public class Solution {
     public boolean isPerfectSquare(int num) {
@@ -10137,6 +10763,8 @@ public class Solution {
 ```
 
 ### largest divisible subset java
+
+> submit time: Wed Jun 29 13:52:39 CST 2016
 
 ```java
 public class Solution {
@@ -10168,6 +10796,8 @@ public class Solution {
 
 ### sum of two integers java
 
+> submit time: Wed Jul 06 22:16:55 CST 2016
+
 ```java
 public class Solution {
     public int getSum(int a, int b) {
@@ -10183,6 +10813,8 @@ public class Solution {
 ```
 
 ### guess number higher or lower java
+
+> submit time: Mon Jun 14 09:13:04 CST 2021
 
 ```java
 /** 
@@ -10213,6 +10845,8 @@ public class Solution extends GuessGame {
 ```
 
 ### decode string rust
+
+> submit time: Fri Jul 09 11:34:32 CST 2021
 
 ```rust
 impl Solution {
@@ -10277,6 +10911,8 @@ impl Solution {
 
 ### decode string java
 
+> submit time: Sun Jun 13 13:28:23 CST 2021
+
 ```java
 class Solution {
     public String decodeString(String s) {
@@ -10324,6 +10960,8 @@ class Solution {
 ```
 
 ### evaluate division rust
+
+> submit time: Thu Jul 15 10:07:50 CST 2021
 
 ```rust
 
@@ -10404,6 +11042,8 @@ impl Solution {
 
 ### evaluate division java
 
+> submit time: Fri Jun 18 10:45:00 CST 2021
+
 ```java
 class Solution {
 
@@ -10481,6 +11121,8 @@ class Solution {
 
 ### binary watch java
 
+> submit time: Mon Jun 21 09:48:48 CST 2021
+
 ```java
 class Solution {
 
@@ -10519,6 +11161,8 @@ class Solution {
 
 ### frog jump java
 
+> submit time: Thu Apr 29 09:47:06 CST 2021
+
 ```java
 class Solution {
     public boolean canCross(int[] stones) {
@@ -10554,6 +11198,8 @@ class Solution {
 
 ### queue reconstruction by height rust
 
+> submit time: Wed Jul 07 10:29:03 CST 2021
+
 ```rust
 impl Solution {
 
@@ -10572,6 +11218,8 @@ impl Solution {
 
 ### queue reconstruction by height java
 
+> submit time: Wed Jun 16 10:52:22 CST 2021
+
 ```java
 class Solution {
     public int[][] reconstructQueue(int[][] people) {
@@ -10589,6 +11237,8 @@ class Solution {
 ```
 
 ### partition equal subset sum rust
+
+> submit time: Sun Jul 11 09:39:04 CST 2021
 
 ```rust
 impl Solution {
@@ -10620,6 +11270,8 @@ impl Solution {
 
 ### partition equal subset sum java
 
+> submit time: Fri Jun 11 19:48:05 CST 2021
+
 ```java
 class Solution {
     public boolean canPartition(int[] nums) {
@@ -10641,6 +11293,8 @@ class Solution {
 ```
 
 ### path sum iii rust
+
+> submit time: Wed Jul 14 08:00:50 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -10688,6 +11342,8 @@ impl Solution {
 
 ### path sum iii java
 
+> submit time: Tue Jun 15 11:14:01 CST 2021
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -10732,6 +11388,8 @@ class Solution {
 ```
 
 ### find all anagrams in a string rust
+
+> submit time: Thu Jul 15 17:22:48 CST 2021
 
 ```rust
 impl Solution {
@@ -10779,6 +11437,8 @@ impl Solution {
 
 ### find all anagrams in a string java
 
+> submit time: Tue Jun 15 13:43:34 CST 2021
+
 ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
@@ -10811,6 +11471,8 @@ class Solution {
 
 ### find all numbers disappeared in an array rust
 
+> submit time: Sat Jul 03 09:55:13 CST 2021
+
 ```rust
 impl Solution {
     pub fn find_disappeared_numbers(nums: Vec<i32>) -> Vec<i32> {
@@ -10826,6 +11488,8 @@ impl Solution {
 
 ### find all numbers disappeared in an array java
 
+> submit time: Fri Jun 11 18:08:11 CST 2021
+
 ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -10837,6 +11501,8 @@ class Solution {
 ```
 
 ### sort characters by frequency rust
+
+> submit time: Sat Jul 03 08:32:02 CST 2021
 
 ```rust
 use std::iter::FromIterator;
@@ -10853,6 +11519,8 @@ impl Solution {
 
 ### hamming distance rust
 
+> submit time: Sat Jul 03 09:57:55 CST 2021
+
 ```rust
 impl Solution {
     pub fn hamming_distance(x: i32, y: i32) -> i32 {
@@ -10863,6 +11531,8 @@ impl Solution {
 
 ### hamming distance java
 
+> submit time: Thu May 27 09:01:52 CST 2021
+
 ```java
 class Solution {
     public int hammingDistance(int x, int y) {
@@ -10872,6 +11542,8 @@ class Solution {
 ```
 
 ### ones and zeroes java
+
+> submit time: Sun Jun 06 11:46:40 CST 2021
 
 ```java
 class Solution {
@@ -10893,6 +11565,8 @@ class Solution {
 
 ### total hamming distance java
 
+> submit time: Fri May 28 09:02:06 CST 2021
+
 ```java
 class Solution {
     public int totalHammingDistance(int[] nums) {
@@ -10908,6 +11582,8 @@ class Solution {
 ```
 
 ### smallest good base java
+
+> submit time: Fri Jun 18 10:25:43 CST 2021
 
 ```java
 class Solution {
@@ -10949,6 +11625,8 @@ class Solution {
 
 ### target sum rust
 
+> submit time: Thu Jul 08 22:34:59 CST 2021
+
 ```rust
 impl Solution {
 
@@ -10977,6 +11655,8 @@ impl Solution {
 
 ### target sum java
 
+> submit time: Mon Jun 07 10:40:17 CST 2021
+
 ```java
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
@@ -11002,6 +11682,8 @@ class Solution {
 
 ### coin change 2 java
 
+> submit time: Thu Jun 10 08:01:51 CST 2021
+
 ```java
 class Solution {
     public int change(int amount, int[] coins) {
@@ -11020,6 +11702,8 @@ class Solution {
 ```
 
 ### continuous subarray sum java
+
+> submit time: Wed Jun 02 09:44:52 CST 2021
 
 ```java
 class Solution {
@@ -11049,6 +11733,8 @@ class Solution {
 
 ### contiguous array java
 
+> submit time: Thu Jun 03 10:31:56 CST 2021
+
 ```java
 class Solution {
     public int findMaxLength(int[] nums) {
@@ -11071,6 +11757,8 @@ class Solution {
 ```
 
 ### convert bst to greater tree rust
+
+> submit time: Tue Jul 13 22:29:13 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -11112,6 +11800,8 @@ impl Solution {
 
 ### convert bst to greater tree java
 
+> submit time: Tue Jun 15 11:24:40 CST 2021
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -11144,6 +11834,8 @@ class Solution {
 ```
 
 ### diameter of binary tree rust
+
+> submit time: Sat Jul 03 10:23:52 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -11187,6 +11879,8 @@ impl Solution {
 
 ### diameter of binary tree java
 
+> submit time: Mon Jun 07 23:44:58 CST 2021
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -11228,6 +11922,8 @@ class Solution {
 
 ### subarray sum equals k rust
 
+> submit time: Thu Jul 08 21:18:33 CST 2021
+
 ```rust
 impl Solution {
     pub fn subarray_sum(nums: Vec<i32>, k: i32) -> i32 {
@@ -11249,6 +11945,8 @@ impl Solution {
 ```
 
 ### subarray sum equals k java
+
+> submit time: Tue Jun 08 20:39:48 CST 2021
 
 ```java
 class Solution {
@@ -11272,6 +11970,8 @@ class Solution {
 ```
 
 ### permutation in string java
+
+> submit time: Tue Jun 15 15:34:27 CST 2021
 
 ```java
 class Solution {
@@ -11301,6 +12001,8 @@ class Solution {
 ```
 
 ### shortest unsorted continuous subarray rust
+
+> submit time: Wed Jul 07 11:25:18 CST 2021
 
 ```rust
 impl Solution {
@@ -11336,6 +12038,8 @@ impl Solution {
 
 ### shortest unsorted continuous subarray java
 
+> submit time: Fri Jun 11 16:50:58 CST 2021
+
 ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
@@ -11357,12 +12061,16 @@ class Solution {
 
 ### big countries mysql
 
+> submit time: Thu Aug 09 15:05:36 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select name, population, area from world where area > 3000000 or population > 25000000
 ```
 
 ### classes more than 5 students mysql
+
+> submit time: Mon Aug 27 19:20:49 CST 2018
 
 ```mysql
 # Write your MySQL query statement below
@@ -11373,6 +12081,8 @@ having count(distinct student) >= 5;
 ```
 
 ### non negative integers without consecutive ones java
+
+> submit time: Wed Jun 23 10:01:37 CST 2021
 
 ```java
 class Solution {
@@ -11405,6 +12115,8 @@ class Solution {
 ```
 
 ### merge two binary trees rust
+
+> submit time: Sat Jul 03 10:42:12 CST 2021
 
 ```rust
 // Definition for a binary tree node.
@@ -11445,6 +12157,8 @@ impl Solution {
 
 ### merge two binary trees java
 
+> submit time: Mon Jun 07 23:25:54 CST 2021
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -11479,6 +12193,8 @@ class Solution {
 
 ### not boring movies mysql
 
+> submit time: Mon Aug 27 19:43:58 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select id, movie, description, rating
@@ -11488,6 +12204,8 @@ order by rating desc;
 ```
 
 ### task scheduler rust
+
+> submit time: Wed Jul 07 21:50:59 CST 2021
 
 ```rust
 impl Solution {
@@ -11508,6 +12226,8 @@ impl Solution {
 ```
 
 ### task scheduler java
+
+> submit time: Mon Jun 07 21:31:11 CST 2021
 
 ```java
 class Solution {
@@ -11548,6 +12268,8 @@ class Solution {
 
 ### exchange seats mysql
 
+> submit time: Thu Aug 09 14:57:39 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 select 
@@ -11562,12 +12284,16 @@ order by id
 
 ### swap salary mysql
 
+> submit time: Thu Aug 09 14:14:17 CST 2018
+
 ```mysql
 # Write your MySQL query statement below
 update salary set sex = (case when sex = 'm' then 'f' when sex = 'f' then 'm' else sex end)
 ```
 
 ### sum of square numbers java
+
+> submit time: Wed Apr 28 14:59:36 CST 2021
 
 ```java
 class Solution {
@@ -11623,6 +12349,8 @@ class Solution {
 
 ### set mismatch rust
 
+> submit time: Sun Jul 04 09:07:16 CST 2021
+
 ```rust
 impl Solution {
 
@@ -11650,6 +12378,8 @@ impl Solution {
 
 ### palindromic substrings rust
 
+> submit time: Sun Jul 11 09:28:26 CST 2021
+
 ```rust
 impl Solution {
 
@@ -11675,6 +12405,8 @@ impl Solution {
 ```
 
 ### palindromic substrings java
+
+> submit time: Mon Jun 07 22:37:56 CST 2021
 
 ```java
 class Solution {
@@ -11703,6 +12435,8 @@ class Solution {
 
 ### top k frequent words java
 
+> submit time: Thu May 20 10:56:49 CST 2021
+
 ```java
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
@@ -11718,6 +12452,8 @@ class Solution {
 ```
 
 ### number of atoms rust
+
+> submit time: Mon Jul 05 11:20:02 CST 2021
 
 ```rust
 impl Solution {
@@ -11827,6 +12563,8 @@ impl Solution {
 
 ### daily temperatures rust
 
+> submit time: Fri Jul 09 15:26:17 CST 2021
+
 ```rust
 impl Solution {
 
@@ -11852,6 +12590,8 @@ pub fn daily_temperatures(temperatures: Vec<i32>) -> Vec<i32> {
 
 ### daily temperatures java
 
+> submit time: Mon Jun 07 23:10:56 CST 2021
+
 ```java
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
@@ -11870,6 +12610,8 @@ class Solution {
 ```
 
 ### open the lock java
+
+> submit time: Fri Jun 25 10:10:54 CST 2021
 
 ```java
 class Solution {
@@ -11934,6 +12676,8 @@ class Solution {
 ```
 
 ### sliding puzzle java
+
+> submit time: Sat Jun 26 09:50:03 CST 2021
 
 ```java
 class Solution {
@@ -12022,6 +12766,8 @@ class Solution {
 
 ### bus routes java
 
+> submit time: Mon Jun 28 11:10:36 CST 2021
+
 ```java
 class Solution {
 
@@ -12074,6 +12820,8 @@ class Solution {
 
 ### peak index in a mountain array java
 
+> submit time: Tue Jun 15 09:14:52 CST 2021
+
 ```java
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
@@ -12101,6 +12849,8 @@ class Solution {
 ```
 
 ### leaf similar trees java
+
+> submit time: Mon May 10 10:05:53 CST 2021
 
 ```java
 /**
@@ -12145,6 +12895,8 @@ class Solution {
 
 ### stone game java
 
+> submit time: Wed Jun 16 09:08:38 CST 2021
+
 ```java
 class Solution {
     public boolean stoneGame(int[] piles) {
@@ -12154,6 +12906,8 @@ class Solution {
 ```
 
 ### profitable schemes java
+
+> submit time: Wed Jun 09 20:58:51 CST 2021
 
 ```java
 class Solution {
@@ -12174,6 +12928,8 @@ class Solution {
 ```
 
 ### increasing order search tree java
+
+> submit time: Sun Apr 25 10:06:44 CST 2021
 
 ```java
 /**
@@ -12213,6 +12969,8 @@ class Solution {
 ```
 
 ### snakes and ladders java
+
+> submit time: Sun Jun 27 11:20:13 CST 2021
 
 ```java
 class Solution {
@@ -12266,6 +13024,8 @@ class Solution {
 
 ### binary subarrays with sum rust
 
+> submit time: Thu Jul 08 09:16:08 CST 2021
+
 ```rust
 impl Solution {
 
@@ -12288,6 +13048,8 @@ impl Solution {
 ```
 
 ### range sum of bst java
+
+> submit time: Tue Apr 27 09:24:28 CST 2021
 
 ```java
 /**
@@ -12326,6 +13088,8 @@ class Solution {
 ```
 
 ### unique paths iii java
+
+> submit time: Fri Jun 11 21:03:39 CST 2021
 
 ```java
 class Solution {
@@ -12379,6 +13143,8 @@ class Solution {
 ```
 
 ### time based key value store rust
+
+> submit time: Sat Jul 10 09:15:28 CST 2021
 
 ```rust
 struct TimeMap{
@@ -12439,6 +13205,8 @@ impl TimeMap {
 
 ### add to array form of integer java
 
+> submit time: Thu Jun 24 16:06:08 CST 2021
+
 ```java
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
@@ -12473,6 +13241,8 @@ class Solution {
 ```
 
 ### cousins in binary tree java
+
+> submit time: Mon May 17 20:07:50 CST 2021
 
 ```java
 /**
@@ -12521,6 +13291,8 @@ class Solution {
 
 ### uncrossed lines java
 
+> submit time: Fri May 21 11:57:38 CST 2021
+
 ```java
 class Solution {
     public int maxUncrossedLines(int[] nums1, int[] nums2) {
@@ -12547,6 +13319,8 @@ class Solution {
 
 ### last stone weight ii java
 
+> submit time: Tue Jun 08 13:46:32 CST 2021
+
 ```java
 class Solution {
     public int lastStoneWeightII(int[] stones) {
@@ -12572,6 +13346,8 @@ class Solution {
 ```
 
 ### number of submatrices that sum to target java
+
+> submit time: Sat May 29 21:57:23 CST 2021
 
 ```java
 class Solution {
@@ -12625,6 +13401,8 @@ class Solution {
 
 ### print in order java
 
+> submit time: Wed Jun 23 11:50:12 CST 2021
+
 ```java
 class Foo {
 
@@ -12659,6 +13437,8 @@ class Foo {
 ```
 
 ### print foobar alternately java
+
+> submit time: Wed Jun 23 13:48:31 CST 2021
 
 ```java
 class FooBar {
@@ -12695,6 +13475,8 @@ class FooBar {
 ```
 
 ### print zero even odd java
+
+> submit time: Wed Jun 23 14:27:25 CST 2021
 
 ```java
 class ZeroEvenOdd {
@@ -12740,6 +13522,8 @@ class ZeroEvenOdd {
 ```
 
 ### reverse substrings between each pair of parentheses java
+
+> submit time: Wed May 26 13:36:56 CST 2021
 
 ```java
 class Solution {
@@ -12789,6 +13573,8 @@ class Solution {
 
 ### maximum length of a concatenated string with unique characters java
 
+> submit time: Sat Jun 19 09:48:36 CST 2021
+
 ```java
 class Solution {
     
@@ -12825,6 +13611,8 @@ class Solution {
 ```
 
 ### display table of food orders in a restaurant rust
+
+> submit time: Tue Jul 06 10:44:31 CST 2021
 
 ```rust
 impl Solution {
@@ -12879,6 +13667,8 @@ impl Solution {
 
 ### form largest integer with digits that add up to target java
 
+> submit time: Sat Jun 12 20:07:32 CST 2021
+
 ```java
 class Solution {
     public String largestNumber(int[] cost, int target) {
@@ -12909,6 +13699,8 @@ class Solution {
 ```
 
 ### throne inheritance java
+
+> submit time: Sun Jun 20 10:32:45 CST 2021
 
 ```java
 class ThroneInheritance {
@@ -12958,6 +13750,8 @@ class ThroneInheritance {
 ```
 
 ### count good meals rust
+
+> submit time: Wed Jul 07 09:46:18 CST 2021
 
 ```rust
 impl Solution {
@@ -13016,6 +13810,8 @@ impl Solution {
 
 ### decode xored array java
 
+> submit time: Thu May 06 09:11:24 CST 2021
+
 ```java
 class Solution {
     public int[] decode(int[] encoded, int first) {
@@ -13030,6 +13826,8 @@ class Solution {
 ```
 
 ### decode xored permutation java
+
+> submit time: Sun Jun 27 19:07:55 CST 2021
 
 ```java
 class Solution {
@@ -13053,6 +13851,8 @@ class Solution {
 ```
 
 ### find kth largest xor coordinate value java
+
+> submit time: Wed May 19 09:40:27 CST 2021
 
 ```java
 class Solution {
@@ -13084,6 +13884,8 @@ class Solution {
 
 ### can you eat your favorite candy on your favorite day java
 
+> submit time: Tue Jun 01 14:01:44 CST 2021
+
 ```java
 class Solution {
     public boolean[] canEat(int[] candiesCount, int[][] queries) {
@@ -13102,6 +13904,8 @@ class Solution {
 ```
 
 ### minimum absolute sum difference rust
+
+> submit time: Wed Jul 14 09:54:01 CST 2021
 
 ```rust
 impl Solution {
@@ -13137,6 +13941,8 @@ impl Solution {
 
 ### maximum ice cream bars rust
 
+> submit time: Fri Jul 02 09:05:07 CST 2021
+
 ```rust
 impl Solution {
 
@@ -13160,6 +13966,8 @@ impl Solution {
 ```
 
 ### frequency of the most frequent element rust
+
+> submit time: Mon Jul 19 10:12:00 CST 2021
 
 ```rust
 impl Solution {
@@ -13186,6 +13994,8 @@ pub fn max_frequency(nums: Vec<i32>, k: i32) -> i32 {
 ```
 
 ### frequency of the most frequent element java
+
+> submit time: Mon Jul 19 09:58:52 CST 2021
 
 ```java
 class Solution {
@@ -13235,6 +14045,8 @@ class Solution {
 
 ### maximum element after decreasing and rearranging rust
 
+> submit time: Thu Jul 15 09:01:06 CST 2021
+
 ```rust
 impl Solution {
 
@@ -13253,6 +14065,8 @@ pub fn maximum_element_after_decrementing_and_rearranging(arr: Vec<i32>) -> i32 
 ```
 
 ### minimize maximum pair sum in array rust
+
+> submit time: Tue Jul 20 09:02:22 CST 2021
 
 ```rust
 impl Solution {
@@ -13276,6 +14090,8 @@ pub fn min_pair_sum(nums: Vec<i32>) -> i32 {
 ```
 
 ### chuan di xin xi rust
+
+> submit time: Thu Jul 01 10:33:47 CST 2021
 
 ```rust
 impl Solution {
@@ -13314,6 +14130,8 @@ impl Solution {
 
 ### er jin zhi zhong 1de ge shu lcof java
 
+> submit time: Wed Jun 23 09:11:15 CST 2021
+
 ```java
 public class Solution {
     // you need to treat n as an unsigned value
@@ -13324,6 +14142,8 @@ public class Solution {
 ```
 
 ### xu lie hua er cha shu lcof java
+
+> submit time: Wed Jun 30 10:21:39 CST 2021
 
 ```java
 /**
@@ -13386,6 +14206,8 @@ public class Codec {
 
 ### zi fu chuan de pai lie lcof java
 
+> submit time: Tue Jun 22 13:30:35 CST 2021
+
 ```java
 class Solution {
 
@@ -13435,6 +14257,8 @@ class Solution {
 
 ### lian xu zi shu zu de zui da he lcof rust
 
+> submit time: Sat Jul 17 08:07:00 CST 2021
+
 ```rust
 impl Solution {
 
@@ -13451,6 +14275,8 @@ impl Solution {
 ```
 
 ### zai pai xu shu zu zhong cha zhao shu zi lcof rust
+
+> submit time: Fri Jul 16 09:31:57 CST 2021
 
 ```rust
 impl Solution {
@@ -13496,6 +14322,8 @@ impl Solution {
 
 ### group anagrams lcci rust
 
+> submit time: Sun Jul 18 10:43:59 CST 2021
+
 ```rust
 impl Solution {
 
@@ -13523,6 +14351,8 @@ impl Solution {
 ```
 
 ### find majority element lcci rust
+
+> submit time: Fri Jul 09 09:12:38 CST 2021
 
 ```rust
 impl Solution {
