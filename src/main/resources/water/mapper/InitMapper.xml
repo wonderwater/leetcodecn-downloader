@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="water.mapper.InitMapper">
+
+    <insert id="createQuestion">
+        create table if not exists question(
+            title text,
+                titleSlug text primary key ,
+                book text,
+                boundTopicId text,
+                categoryTitle text,
+                codeSnippets text,
+                companyTagStats text,
+                content text,
+                contributors text,
+                dailyRecordStatus text,
+                difficulty text,
+                dislikes text,
+                editorType text,
+                enableRunCode text,
+                envInfo text,
+                exampleTestcases text,
+                hints text,
+                isDailyQuestion text,
+                isLiked text,
+                isPaidOnly text,
+                isSubscribed text,
+                judgeType text,
+                judgerAvailable text,
+                langToValidPlayground text,
+                likes text,
+                metaData text,
+                mysqlSchemas text,
+                questionFrontendId text,
+                questionId text,
+                sampleTestCase text,
+                similarQuestions text,
+                solution text,
+                stats text,
+                status text,
+                style text,
+                topicTags text,
+                translatedContent text,
+                translatedTitle text,
+                ugcQuestionId text
+        )
+    </insert>
+    <insert id="createSubmission">
+
+        create table if not exists submission (
+            id text primary key ,
+                lang text,
+                runtime text,
+                timestamp text,
+                url text,
+                fetch integer
+        )
+    </insert>
+    <insert id="createSubmissionDetail">
+        create table if not exists submission_detail (
+            code text,
+                id text primary key ,
+                lang text,
+                memory text,
+                codeOutput text,
+                compileError text,
+                expectedOutput text,
+                input text,
+                lastTestcase text,
+                runtimeError text,
+                passedTestCaseCnt text,
+                questionId text,
+                title text,
+                titleSlug text,
+                translatedTitle text,
+                rawMemory text,
+                runtime text,
+                sourceUrl text,
+                statusDisplay text,
+                submissionComment text,
+                timestamp text,
+                totalTestCaseCnt text
+        )
+    </insert>
+
+</mapper>

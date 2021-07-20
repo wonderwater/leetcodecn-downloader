@@ -1,0 +1,6 @@
+/db
+*.iml
+/target/
+/.idea/
+/src/main/resources/*.json
+.DS_Store
