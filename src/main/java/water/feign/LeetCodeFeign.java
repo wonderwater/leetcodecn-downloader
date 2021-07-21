@@ -7,7 +7,7 @@ import water.bean.resp.Rsp;
 
 @Headers({
         "accept: */*",
-        "accept-encoding: gzip",
+        "accept-encoding: identity",
         "accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
         "content-type: application/json",
         "sec-ch-ua: \" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
