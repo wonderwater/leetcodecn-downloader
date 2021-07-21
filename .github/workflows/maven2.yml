@@ -24,7 +24,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - env: 
-        cookie: ${{ secrets.COOKIE }}
+        cookie: ${{ secrets.test.cookie }}
       run: java -jar target/*dependencies.jar
     - run: mkdir staging && cp target/*dependencies.jar staging && cp db staging
     - uses: actions/upload-artifact@v2
