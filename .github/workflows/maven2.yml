@@ -16,6 +16,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Checkout private data file
+      uses: actions/checkout@v2
+      with:
+        repository: wonderwater/my_data
+        token: ${{ secrets.token }}
+        path: tmp
+    - run: mv tmp/leetcode/db .
     - name: Set up JDK 8
       uses: actions/setup-java@v2
       with:
@@ -26,7 +34,7 @@ jobs:
     - env: 
         cookie: ${{ secrets.cookie }}
       run: java -jar target/*dependencies.jar
-    - run: mkdir staging && cp target/*dependencies.jar staging && cp db staging
+    - run: mkdir staging && cp db staging
     - uses: actions/upload-artifact@v2
       with:
         name: Package
@@ -35,4 +43,9 @@ jobs:
       with:
         message: 'update README.md'
         add: 'README.md --force'
+    - run: |
+        git config --global user.email "any@water.com"
+        git config --global user.name "github-action"
+        mv db tmp/leetcode/
+        cd tmp && git add * && git commit -m "commit" && git push
 
