@@ -28,4 +28,11 @@ jobs:
       with:
         name: Package
         path: staging
+    - env: 
+        cookie: "{{ secrets.COOKIE }}"
+      run: java -jar target/*dependencies.jar
+    - uses: EndBug/add-and-commit@v7
+      with:
+        message: 'update README.md'
+        add: 'README.md --force'
 
