@@ -23,14 +23,14 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - run: mkdir staging && cp target/*dependencies.jar staging
+    - env: 
+        cookie: "${{ secrets.COOKIE }}"
+      run: java -jar target/*dependencies.jar
+    - run: mkdir staging && cp target/*dependencies.jar staging && cp db staging
     - uses: actions/upload-artifact@v2
       with:
         name: Package
         path: staging
-    - env: 
-        cookie: ${{ secrets.COOKIE }}
-      run: java -jar target/*dependencies.jar
     - uses: EndBug/add-and-commit@v7
       with:
         message: 'update README.md'
