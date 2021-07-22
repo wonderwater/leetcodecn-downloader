@@ -139,7 +139,7 @@ Generate db file(sqlite)，and README.md file.
 135|[Candy](https://leetcode-cn.com/problems/candy)|[java](#candy-java)|greedy,array|Hard
 136|[Single Number](https://leetcode-cn.com/problems/single-number)|[rust](#single-number-rust),[c](#single-number-c)|bit-manipulation,array|Easy
 137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii)|[java](#single-number-ii-java)|bit-manipulation,array|Medium
-138|[Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|[java](#copy-list-with-random-pointer-java)|hash-table,linked-list|Medium
+138|[Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|[python3](#copy-list-with-random-pointer-python3),[java](#copy-list-with-random-pointer-java)|hash-table,linked-list|Medium
 139|[Word Break](https://leetcode-cn.com/problems/word-break)|[rust](#word-break-rust),[java](#word-break-java)|trie,memoization,hash-table,string,dynamic-programming|Medium
 141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle)|[java](#linked-list-cycle-java)|hash-table,linked-list,two-pointers|Easy
 142|[Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[java](#linked-list-cycle-ii-java)|hash-table,linked-list,two-pointers|Medium
@@ -6568,6 +6568,46 @@ public class Solution {
         return zeros;
     }
 }
+```
+
+### copy list with random pointer python3
+
+> submit time: Thu Jul 22 01:30:48 UTC 2021
+
+```python3
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        cur = head
+        while cur:
+            cur.next = Node(cur.val, cur.next)
+            cur = cur.next.next
+        cur = head
+        while cur:
+            if cur.random:
+                cur.next.random = cur.random.next
+            cur = cur.next.next
+        ans = None
+        cur = head
+        lastn = None
+        while cur:
+            n = cur.next
+            cur.next = n.next
+            if not ans:
+                ans = n
+            else:
+                lastn.next = n
+            lastn = n
+            cur = cur.next
+        return ans
 ```
 
 ### copy list with random pointer java
