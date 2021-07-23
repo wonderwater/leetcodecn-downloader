@@ -314,6 +314,7 @@ Generate db file(sqlite)，and README.md file.
 1838|[Frequency of the Most Frequent Element](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element)|[rust](#frequency-of-the-most-frequent-element-rust),[java](#frequency-of-the-most-frequent-element-java)|array,binary-search,prefix-sum,sliding-window|Medium
 1846|[Maximum Element After Decreasing and Rearranging](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)|[rust](#maximum-element-after-decreasing-and-rearranging-rust)|greedy,array,sorting|Medium
 1877|[Minimize Maximum Pair Sum in Array](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[rust](#minimize-maximum-pair-sum-in-array-rust)|greedy,array,two-pointers,sorting|Medium
+1893|[Check if All the Integers in a Range Are Covered](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered)|[rust](#check-if-all-the-integers-in-a-range-are-covered-rust)|array,hash-table,prefix-sum|Easy
 LCP 07|[传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi)|[rust](#chuan-di-xin-xi-rust)|depth-first-search,breadth-first-search,graph,dynamic-programming|Easy
 剑指 Offer 15|[二进制中1的个数 LCOF](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[java](#er-jin-zhi-zhong-1de-ge-shu-lcof-java)|bit-manipulation|Easy
 剑指 Offer 37|[序列化二叉树  LCOF](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof)|[java](#xu-lie-hua-er-cha-shu-lcof-java)|tree,depth-first-search,breadth-first-search,design,string,binary-tree|Hard
@@ -14127,6 +14128,39 @@ pub fn min_pair_sum(nums: Vec<i32>) -> i32 {
     ans
 }
 
+}
+```
+
+### check if all the integers in a range are covered rust
+
+> submit time: Fri Jul 23 01:12:28 UTC 2021
+
+```rust
+impl Solution {
+
+    pub fn is_covered(ranges: Vec<Vec<i32>>, left: i32, right: i32) -> bool {
+        let mut ranges = ranges;
+        ranges.sort();
+
+        let mut lo = ranges[0][0];
+        let mut hi = ranges[0][1];
+        for v in ranges {
+            if v[0] <= hi + 1 {
+                hi = v[1].max(hi);
+            }else{
+                lo = v[0];
+                hi = v[1];
+            }
+            if left < lo {
+                return false;
+            }
+            if right <= hi {
+                return true;
+            }
+        }
+
+        false
+    }
 }
 ```
 
