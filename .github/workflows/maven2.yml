@@ -32,18 +32,13 @@ jobs:
     - env: 
         cookie: ${{ secrets.cookie }}
       run: java -jar target/*dependencies.jar
-    - run: mkdir staging && cp db staging
-    - uses: actions/upload-artifact@v2
-      with:
-        name: Package
-        path: staging
     - uses: EndBug/add-and-commit@v7
       with:
-        message: 'update README.md'
+        message: 'github action schedule update README.md'
         add: 'README.md --force'
     - run: |
         git config --global user.email "any@water.com"
         git config --global user.name "github-action"
         mv db tmp/leetcode/
-        cd tmp && git add * && git commit -m "commit" && git push
+        cd tmp && git add * && git commit -m "github action commit" && git push
 
