@@ -307,6 +307,7 @@ Generate db file(sqlite)，and README.md file.
 1711|[Count Good Meals](https://leetcode-cn.com/problems/count-good-meals)|[rust](#count-good-meals-rust)|array,hash-table|Medium
 1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array)|[java](#decode-xored-array-java)|bit-manipulation,array|Easy
 1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation)|[java](#decode-xored-permutation-java)|bit-manipulation,array|Medium
+1736|[Latest Time by Replacing Hidden Digits](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits)|[rust](#latest-time-by-replacing-hidden-digits-rust)|string|Easy
 1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value)|[java](#find-kth-largest-xor-coordinate-value-java)|bit-manipulation,array,divide-and-conquer,matrix,prefix-sum,quickselect,heap-priority-queue|Medium
 1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)|[java](#can-you-eat-your-favorite-candy-on-your-favorite-day-java)|array,prefix-sum|Medium
 1818|[Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/minimum-absolute-sum-difference)|[rust](#minimum-absolute-sum-difference-rust)|greedy,array,binary-search,ordered-set|Medium
@@ -13888,6 +13889,36 @@ class Solution {
         }
         
         return ans;
+    }
+}
+```
+
+### latest time by replacing hidden digits rust
+
+> submit time: Sat Jul 24 01:48:10 UTC 2021
+
+```rust
+impl Solution {
+    
+    pub fn maximum_time(time: String) -> String {
+        let mut ans = String::new();
+
+        let hour1 = time.chars().nth(0).unwrap();
+        let hour2 = time.chars().nth(1).unwrap();
+        let min1 = time.chars().nth(3).unwrap();
+        let min2 = time.chars().nth(4).unwrap();
+        ans += &match (hour1, hour2) {
+            ('?', '0'..='3') => format!("2{}", hour2),
+            ('?', '4'..='9') => format!("1{}", hour2),
+            ('0'..='1', '?') => format!("{}9", hour1),
+            ('2', '?') => format!("{}3", hour1),
+            ('?', '?') => String::from("23"),
+            _ => format!("{}{}", hour1, hour2),
+        };
+        ans.push(':');
+        ans.push(match min1 {'?' => '5', _ => min1,});
+        ans.push(match min2 {'?' => '9', _ => min2,});
+        ans
     }
 }
 ```
