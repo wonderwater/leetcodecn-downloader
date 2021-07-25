@@ -309,6 +309,7 @@ Generate db file(sqlite)，and README.md file.
 1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation)|[java](#decode-xored-permutation-java)|bit-manipulation,array|Medium
 1736|[Latest Time by Replacing Hidden Digits](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits)|[rust](#latest-time-by-replacing-hidden-digits-rust)|string|Easy
 1738|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value)|[java](#find-kth-largest-xor-coordinate-value-java)|bit-manipulation,array,divide-and-conquer,matrix,prefix-sum,quickselect,heap-priority-queue|Medium
+1743|[Restore the Array From Adjacent Pairs](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs)|[rust](#restore-the-array-from-adjacent-pairs-rust)|array,hash-table|Medium
 1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)|[java](#can-you-eat-your-favorite-candy-on-your-favorite-day-java)|array,prefix-sum|Medium
 1818|[Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/minimum-absolute-sum-difference)|[rust](#minimum-absolute-sum-difference-rust)|greedy,array,binary-search,ordered-set|Medium
 1833|[Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[rust](#maximum-ice-cream-bars-rust)|greedy,array,sorting|Medium
@@ -13951,6 +13952,37 @@ class Solution {
 //        System.out.println(Arrays.deepToString(values));
         IntStream.range(1, k).forEach(x -> p.poll());
         return p.poll();
+    }
+}
+```
+
+### restore the array from adjacent pairs rust
+
+> submit time: Sun Jul 25 01:05:37 UTC 2021
+
+```rust
+impl Solution {
+
+    pub fn restore_array(adjacent_pairs: Vec<Vec<i32>>) -> Vec<i32> {
+        let n = adjacent_pairs.len() + 1;
+        let mut cnts = std::collections::HashMap::new();
+        for v in adjacent_pairs {
+            cnts.entry(v[0]).or_insert(vec![]).push(v[1]);
+            cnts.entry(v[1]).or_insert(vec![]).push(v[0]);
+        }
+
+        let mut ans = vec![0; n];
+
+        let start = cnts.iter().filter(|&(_, v)| v.len() == 1).map(|(k, _)| *k).next().unwrap();
+        ans[0] = start;
+        ans[1] = cnts[&start][0];
+        for i in 2..n {
+            let prev = ans[i - 1];
+            let v = &cnts[&prev];
+            ans[i] = if v[0] == ans[i - 2] { v[1] } else { v[0] };
+        }
+
+        ans
     }
 }
 ```
