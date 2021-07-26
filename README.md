@@ -305,6 +305,7 @@ Generate db file(sqlite)，and README.md file.
 1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target)|[java](#form-largest-integer-with-digits-that-add-up-to-target-java)|array,dynamic-programming|Hard
 1600|[Throne Inheritance](https://leetcode-cn.com/problems/throne-inheritance)|[java](#throne-inheritance-java)|tree,depth-first-search,design,hash-table|Medium
 1711|[Count Good Meals](https://leetcode-cn.com/problems/count-good-meals)|[rust](#count-good-meals-rust)|array,hash-table|Medium
+1713|[Minimum Operations to Make a Subsequence](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence)|[rust](#minimum-operations-to-make-a-subsequence-rust)|greedy,array,hash-table,binary-search|Hard
 1720|[Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array)|[java](#decode-xored-array-java)|bit-manipulation,array|Easy
 1734|[Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation)|[java](#decode-xored-permutation-java)|bit-manipulation,array|Medium
 1736|[Latest Time by Replacing Hidden Digits](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits)|[rust](#latest-time-by-replacing-hidden-digits-rust)|string|Easy
@@ -13849,6 +13850,39 @@ impl Solution {
         
 
 
+}
+```
+
+### minimum operations to make a subsequence rust
+
+> submit time: Mon Jul 26 01:09:58 UTC 2021
+
+```rust
+impl Solution {
+
+    pub fn min_operations(target: Vec<i32>, arr: Vec<i32>) -> i32 {
+        let mut m = std::collections::HashMap::new();
+        for (i, &a) in target.iter().enumerate() {
+            m.insert(a, i);
+        }
+        let mut d = vec![];
+        for a in arr.iter() {
+            if let Some(x) = m.get(a) {
+                match d.binary_search(x) {
+                    Err(idx) => {
+                        if idx >= d.len() {
+                            d.push(*x);
+                        }else{
+                            d[idx] = *x;
+                        }
+                    },
+                    _ => (),
+                }
+            }
+        }
+
+        (target.len() - d.len()) as i32
+    }
 }
 ```
 
