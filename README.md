@@ -158,7 +158,7 @@ Generate db file(sqlite)，and README.md file.
 166|[Fraction to Recurring Decimal](https://leetcode-cn.com/problems/fraction-to-recurring-decimal)|[java](#fraction-to-recurring-decimal-java)|hash-table,math,string|Medium
 168|[Excel Sheet Column Title](https://leetcode-cn.com/problems/excel-sheet-column-title)|[rust](#excel-sheet-column-title-rust),[java](#excel-sheet-column-title-java)|math,string|Easy
 169|[Majority Element](https://leetcode-cn.com/problems/majority-element)|[rust](#majority-element-rust),[java](#majority-element-java)|array,hash-table,divide-and-conquer,counting,sorting|Easy
-171|[Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number)|[java](#excel-sheet-column-number-java)|math,string|Easy
+171|[Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number)|[rust](#excel-sheet-column-number-rust),[java](#excel-sheet-column-number-java)|math,string|Easy
 172|[Factorial Trailing Zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[java](#factorial-trailing-zeroes-java)|math|Easy
 175|[Combine Two Tables](https://leetcode-cn.com/problems/combine-two-tables)|[mysql](#combine-two-tables-mysql)|database|Easy
 176|[Second Highest Salary](https://leetcode-cn.com/problems/second-highest-salary)|[mysql](#second-highest-salary-mysql)|database|Easy
@@ -274,13 +274,16 @@ Generate db file(sqlite)，and README.md file.
 633|[Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers)|[java](#sum-of-square-numbers-java)|math,two-pointers,binary-search|Medium
 645|[Set Mismatch](https://leetcode-cn.com/problems/set-mismatch)|[rust](#set-mismatch-rust)|bit-manipulation,array,hash-table,sorting|Easy
 647|[Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings)|[rust](#palindromic-substrings-rust),[java](#palindromic-substrings-java)|string,dynamic-programming|Medium
+671|[Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)|[rust](#second-minimum-node-in-a-binary-tree-rust)|tree,depth-first-search,binary-tree|Easy
 692|[Top K Frequent Words](https://leetcode-cn.com/problems/top-k-frequent-words)|[java](#top-k-frequent-words-java)|trie,hash-table,string,bucket-sort,counting,sorting,heap-priority-queue|Medium
 726|[Number of Atoms](https://leetcode-cn.com/problems/number-of-atoms)|[rust](#number-of-atoms-rust)|stack,hash-table,string|Hard
 739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures)|[rust](#daily-temperatures-rust),[java](#daily-temperatures-java)|stack,array,monotonic-stack|Medium
+743|[Network Delay Time](https://leetcode-cn.com/problems/network-delay-time)|[rust](#network-delay-time-rust)|depth-first-search,breadth-first-search,graph,shortest-path,heap-priority-queue|Medium
 752|[Open the Lock](https://leetcode-cn.com/problems/open-the-lock)|[java](#open-the-lock-java)|breadth-first-search,array,hash-table,string|Medium
 773|[Sliding Puzzle](https://leetcode-cn.com/problems/sliding-puzzle)|[java](#sliding-puzzle-java)|breadth-first-search,array,matrix|Hard
 815|[Bus Routes](https://leetcode-cn.com/problems/bus-routes)|[java](#bus-routes-java)|breadth-first-search,array,hash-table|Hard
 852|[Peak Index in a Mountain Array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array)|[java](#peak-index-in-a-mountain-array-java)|array,binary-search|Easy
+863|[All Nodes Distance K in Binary Tree](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree)|[rust](#all-nodes-distance-k-in-binary-tree-rust)|tree,depth-first-search,breadth-first-search,binary-tree|Medium
 872|[Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees)|[java](#leaf-similar-trees-java)|tree,depth-first-search,binary-tree|Easy
 877|[Stone Game](https://leetcode-cn.com/problems/stone-game)|[java](#stone-game-java)|array,math,dynamic-programming,game-theory|Medium
 879|[Profitable Schemes](https://leetcode-cn.com/problems/profitable-schemes)|[java](#profitable-schemes-java)|array,dynamic-programming|Hard
@@ -290,17 +293,20 @@ Generate db file(sqlite)，and README.md file.
 938|[Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst)|[java](#range-sum-of-bst-java)|tree,depth-first-search,binary-search-tree,binary-tree|Easy
 980|[Unique Paths III](https://leetcode-cn.com/problems/unique-paths-iii)|[java](#unique-paths-iii-java)|bit-manipulation,array,backtracking,matrix|Hard
 981|[Time Based Key-Value Store](https://leetcode-cn.com/problems/time-based-key-value-store)|[rust](#time-based-key-value-store-rust)|design,hash-table,string,binary-search|Medium
+987|[Vertical Order Traversal of a Binary Tree](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree)|[rust](#vertical-order-traversal-of-a-binary-tree-rust)|tree,depth-first-search,breadth-first-search,hash-table,binary-tree|Hard
 989|[Add to Array-Form of Integer](https://leetcode-cn.com/problems/add-to-array-form-of-integer)|[java](#add-to-array-form-of-integer-java)|array,math|Easy
 993|[Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree)|[java](#cousins-in-binary-tree-java)|tree,depth-first-search,breadth-first-search,binary-tree|Easy
 1011|[Capacity To Ship Packages Within D Days](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days)||greedy,array,binary-search|Medium
 1035|[Uncrossed Lines](https://leetcode-cn.com/problems/uncrossed-lines)|[java](#uncrossed-lines-java)|array,dynamic-programming|Medium
 1049|[Last Stone Weight II](https://leetcode-cn.com/problems/last-stone-weight-ii)|[java](#last-stone-weight-ii-java)|array,dynamic-programming|Medium
 1074|[Number of Submatrices That Sum to Target](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target)|[java](#number-of-submatrices-that-sum-to-target-java)|array,hash-table,matrix,prefix-sum|Hard
+1104|[Path In Zigzag Labelled Binary Tree](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree)|[rust](#path-in-zigzag-labelled-binary-tree-rust)|tree,math,binary-tree|Medium
 1114|[Print in Order](https://leetcode-cn.com/problems/print-in-order)|[java](#print-in-order-java)|concurrency|Easy
 1115|[Print FooBar Alternately](https://leetcode-cn.com/problems/print-foobar-alternately)|[java](#print-foobar-alternately-java)|concurrency|Medium
 1116|[Print Zero Even Odd](https://leetcode-cn.com/problems/print-zero-even-odd)|[java](#print-zero-even-odd-java)|concurrency|Medium
 1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses)|[java](#reverse-substrings-between-each-pair-of-parentheses-java)|stack,string|Medium
 1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[java](#maximum-length-of-a-concatenated-string-with-unique-characters-java)|bit-manipulation,array,string,backtracking|Medium
+1337|[The K Weakest Rows in a Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix)|[rust](#the-k-weakest-rows-in-a-matrix-rust)|array,binary-search,matrix,sorting,heap-priority-queue|Easy
 1418|[Display Table of Food Orders in a Restaurant](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant)|[rust](#display-table-of-food-orders-in-a-restaurant-rust)|array,hash-table,string,ordered-set,sorting|Medium
 1449|[Form Largest Integer With Digits That Add up to Target](https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target)|[java](#form-largest-integer-with-digits-that-add-up-to-target-java)|array,dynamic-programming|Hard
 1600|[Throne Inheritance](https://leetcode-cn.com/problems/throne-inheritance)|[java](#throne-inheritance-java)|tree,depth-first-search,design,hash-table|Medium
@@ -318,6 +324,7 @@ Generate db file(sqlite)，and README.md file.
 1846|[Maximum Element After Decreasing and Rearranging](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)|[rust](#maximum-element-after-decreasing-and-rearranging-rust)|greedy,array,sorting|Medium
 1877|[Minimize Maximum Pair Sum in Array](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[rust](#minimize-maximum-pair-sum-in-array-rust)|greedy,array,two-pointers,sorting|Medium
 1893|[Check if All the Integers in a Range Are Covered](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered)|[rust](#check-if-all-the-integers-in-a-range-are-covered-rust)|array,hash-table,prefix-sum|Easy
+1915|[Number of Wonderful Substrings](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[rust](#number-of-wonderful-substrings-rust)|bit-manipulation,hash-table,string,prefix-sum|Medium
 LCP 07|[传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi)|[rust](#chuan-di-xin-xi-rust)|depth-first-search,breadth-first-search,graph,dynamic-programming|Easy
 剑指 Offer 15|[二进制中1的个数 LCOF](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[java](#er-jin-zhi-zhong-1de-ge-shu-lcof-java)|bit-manipulation|Easy
 剑指 Offer 37|[序列化二叉树  LCOF](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof)|[java](#xu-lie-hua-er-cha-shu-lcof-java)|tree,depth-first-search,breadth-first-search,design,string,binary-tree|Hard
@@ -7579,6 +7586,27 @@ public class Solution {
 }
 ```
 
+### excel sheet column number rust
+
+> submit time: Fri Jul 30 01:02:19 UTC 2021
+
+```rust
+impl Solution {
+
+    pub fn title_to_number(column_title: String) -> i32 {
+        let mut ans = 0;
+
+        for c in column_title.chars().into_iter() {
+            ans = ans * 26 + (c as u8 - 'A' as u8) as i32 + 1;
+        }
+
+        ans
+    }
+
+
+}
+```
+
 ### excel sheet column number java
 
 > submit time: Fri Sep 11 12:33:10 UTC 2015
@@ -12478,6 +12506,57 @@ class Solution {
 }
 ```
 
+### second minimum node in a binary tree rust
+
+> submit time: Tue Jul 27 01:14:55 UTC 2021
+
+```rust
+// Definition for a binary tree node.
+// #[derive(Debug, PartialEq, Eq)]
+// pub struct TreeNode {
+//   pub val: i32,
+//   pub left: Option<Rc<RefCell<TreeNode>>>,
+//   pub right: Option<Rc<RefCell<TreeNode>>>,
+// }
+//
+// impl TreeNode {
+//   #[inline]
+//   pub fn new(val: i32) -> Self {
+//     TreeNode {
+//       val,
+//       left: None,
+//       right: None
+//     }
+//   }
+// }
+use std::rc::Rc;
+use std::cell::RefCell;
+impl Solution {
+    pub fn find_second_minimum_value(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+        fn aux(root: Option<Rc<RefCell<TreeNode>>>, val: i32) -> i32{
+            if let Some(r) = root {
+                let a = r.borrow().val;
+                if a > val {
+                    return a;
+                }
+                let left = aux(r.borrow_mut().left.take(), val);
+                let right = aux(r.borrow_mut().right.take(), val);
+                match (left, right) {
+                    (-1, -1) => -1,
+                    (-1, _) => right,
+                    (_, -1) => left,
+                    _ => left.min(right),
+                }
+            }else{
+                -1
+            }
+        }
+        let val = root.as_ref().unwrap().borrow().val;
+        aux(root, val)
+    }
+}
+```
+
 ### top k frequent words java
 
 > submit time: Thu May 20 02:56:49 UTC 2021
@@ -12650,6 +12729,51 @@ class Solution {
             q.push(i);
         }
         return ans;
+    }
+}
+```
+
+### network delay time rust
+
+> submit time: Mon Aug 02 01:41:18 UTC 2021
+
+```rust
+impl Solution {
+
+    pub fn network_delay_time(times: Vec<Vec<i32>>, n: i32, k: i32) -> i32 {
+        let mut m = std::collections::HashMap::new();
+        for t in times.iter() {
+            m.entry(t[0]).or_insert(vec![]).push((t[1], t[2]));
+        }
+        let mut ans = -1;
+        let mut cur = std::collections::HashMap::new();
+        cur.insert(k, 0);
+        let mut heap = std::collections::BinaryHeap::new();
+        let mut len = 0;
+        while cur.len() > len {
+            len = cur.len();
+            for (c, w) in cur.iter() {
+                if let Some(v) = m.remove(&c) {
+                    for &(next, nw) in v.iter() {
+                        if !cur.contains_key(&next) {
+                            heap.push(std::cmp::Reverse((w + nw, next)));
+                        }
+                    }
+                }
+            }
+            while let Some(std::cmp::Reverse((w, next))) = heap.pop() {
+                if !cur.contains_key(&next){
+                    cur.insert(next, w);
+                    ans = w.max(ans);
+                    break;
+                }
+            }
+        }
+        if cur.len() < n as usize {
+            -1
+        }else{
+            ans
+        }
     }
 }
 ```
@@ -12890,6 +13014,90 @@ class Solution {
         }
         return l;
     }
+}
+```
+
+### all nodes distance k in binary tree rust
+
+> submit time: Wed Jul 28 02:14:35 UTC 2021
+
+```rust
+// Definition for a binary tree node.
+// #[derive(Debug, PartialEq, Eq)]
+// pub struct TreeNode {
+//   pub val: i32,
+//   pub left: Option<Rc<RefCell<TreeNode>>>,
+//   pub right: Option<Rc<RefCell<TreeNode>>>,
+// }
+// 
+// impl TreeNode {
+//   #[inline]
+//   pub fn new(val: i32) -> Self {
+//     TreeNode {
+//       val,
+//       left: None,
+//       right: None
+//     }
+//   }
+// }
+use std::rc::Rc;
+use std::cell::RefCell;
+impl Solution {
+
+pub fn distance_k(root: Option<Rc<RefCell<TreeNode>>>, target: Option<Rc<RefCell<TreeNode>>>, k: i32) -> Vec<i32> {
+    fn aux(root: &Option<Rc<RefCell<TreeNode>>>, target: i32, ans: &mut Vec<i32>, k: i32, left: i32) -> i32 {
+        let mut ret = -1;
+        if let Some(r) = root {
+            if left > 1 {
+                let left = left - 1;
+                aux(&r.borrow().left, target, ans, k, left);
+                aux(&r.borrow().right, target, ans, k, left);
+                return ret;
+            }else if left == 1 {
+                ans.push(r.borrow().val);
+                return ret;
+            }
+            if r.borrow().val == target {
+                ret = 0;
+                if k == 0 {
+                    ans.push(r.borrow().val);
+                }else{
+                    aux(&r.borrow().left, target, ans, k, k);
+                    aux(&r.borrow().right, target, ans, k, k);
+                }
+                return ret;
+            }else{
+                
+                let mut left = aux(&r.borrow().left, target, ans, k, -1);
+                if left >= 0 {
+                    left += 1;
+                    if k == left{
+                        ans.push(r.borrow().val);
+                    }else if k > left {
+                        aux(&r.borrow().right, target, ans, k, k - left);
+                    }
+                    return left;
+                }
+                let mut right = aux(&r.borrow().right, target, ans, k, -1);
+                if right >= 0 {
+                    right += 1;
+                    if k == right{
+                        ans.push(r.borrow().val);
+                    }else if k > right {
+                        aux(&r.borrow().left, target, ans, k, k - right);
+                    }
+                    return right;
+                }
+            }
+        }
+        ret
+    }
+    let mut ans = vec![];
+    let target = target.unwrap().borrow_mut().val;
+    aux(&root, target, &mut ans, k, -1);
+    ans
+}
+
 }
 ```
 
@@ -13248,6 +13456,59 @@ impl TimeMap {
  */
 ```
 
+### vertical order traversal of a binary tree rust
+
+> submit time: Sat Jul 31 04:56:34 UTC 2021
+
+```rust
+// Definition for a binary tree node.
+// #[derive(Debug, PartialEq, Eq)]
+// pub struct TreeNode {
+//   pub val: i32,
+//   pub left: Option<Rc<RefCell<TreeNode>>>,
+//   pub right: Option<Rc<RefCell<TreeNode>>>,
+// }
+//
+// impl TreeNode {
+//   #[inline]
+//   pub fn new(val: i32) -> Self {
+//     TreeNode {
+//       val,
+//       left: None,
+//       right: None
+//     }
+//   }
+// }
+use std::rc::Rc;
+use std::cell::RefCell;
+impl Solution {
+
+    pub fn vertical_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
+        fn dfs(root: &Option<Rc<RefCell<TreeNode>>>, m: &mut Vec<(i32, i32, i32)>, col: i32, row: i32){
+            if let Some(r) = root {
+                m.push((col, row, r.borrow().val));
+                dfs(&r.borrow().left, m, col - 1, row + 1);
+                dfs(&r.borrow().right, m, col + 1, row + 1);
+            }
+        }
+        let mut m = vec![];
+        dfs(&root, &mut m, 0, 0);
+        m.sort();
+        let mut ans = vec![];
+        let mut lastcol = 1;
+        for (col, _, val) in m {
+            if lastcol != col {
+                ans.push(vec![]);
+            }
+            ans.last_mut().unwrap().push(val);
+            lastcol = col;
+        }
+        ans
+    }
+
+}
+```
+
 ### add to array form of integer java
 
 > submit time: Thu Jun 24 08:06:08 UTC 2021
@@ -13440,6 +13701,37 @@ class Solution {
         }
         return cnt;
 
+    }
+}
+```
+
+### path in zigzag labelled binary tree rust
+
+> submit time: Thu Jul 29 01:24:24 UTC 2021
+
+```rust
+impl Solution {
+
+    pub fn path_in_zig_zag_tree(label: i32) -> Vec<i32> {
+        let mut ans = vec![];
+        let mut cur = label;
+        
+        let a = 32 - cur.leading_zeros();
+        if (a & 1) == 0 {
+            cur = (1 << a) - cur + (1 << a - 1) - 1;
+        }
+        while cur > 0{
+            let a = 32 - cur.leading_zeros();
+            if (a & 1) >= 1 {
+                ans.push(cur);
+            }else{
+                ans.push((1 << a) - cur + (1 << a - 1) - 1);
+            }
+            cur /= 2;
+        }
+
+        ans.reverse();
+        ans
     }
 }
 ```
@@ -13652,6 +13944,20 @@ class Solution {
         return Math.max(ans1, ans2);
     }
 
+}
+```
+
+### the k weakest rows in a matrix rust
+
+> submit time: Sun Aug 01 01:35:24 UTC 2021
+
+```rust
+impl Solution {
+    pub fn k_weakest_rows(mat: Vec<Vec<i32>>, k: i32) -> Vec<i32> {
+        let mut cnts: Vec<(usize, usize)> = mat.iter().enumerate().map(|(i, x)| (x.iter().take_while(|&& y| y == 1).count(), i)).collect();
+        cnts.sort();
+        cnts.iter().map(|&(_, i)| i as i32).take(k as usize).collect()
+    }
 }
 ```
 
@@ -14258,6 +14564,32 @@ impl Solution {
 
         false
     }
+}
+```
+
+### number of wonderful substrings rust
+
+> submit time: Sat Jul 31 05:46:11 UTC 2021
+
+```rust
+impl Solution {
+    pub fn wonderful_substrings(word: String) -> i64 {
+        let mut m = vec![0; 1 << 10];
+        let mut ans = 0;
+        m[0] = 1;
+        let mut cur = 0;
+        for i in word.bytes() {
+            cur ^= 1 << (i - 'a' as u8);
+            ans += m[cur];
+            for i in 0..10{
+                let c = cur ^ (1 << i);
+                ans += m[c];
+            }
+            m[cur] += 1;
+        }
+        ans
+    }
+
 }
 ```
 
